@@ -1,0 +1,19 @@
+.row-detail {
+  background: #f8fafc;
+}
+.row-detail td {
+  padding: 12px 8px;
+  border-bottom: 1px solid #e2e8f0;
+}
+.tag-pill {
+  font-size: 11px;
+  padding: 1px 6px;
+  background: #e0e7ff;
+  color: #3730a3;
+  border-radius: 999px;
+}
+.tag-pill.active {
+  background: #4338ca;
+  color: #fff;
+}
+tr.video-row:hover { background: #f1f5f9; cursor: pointer; }

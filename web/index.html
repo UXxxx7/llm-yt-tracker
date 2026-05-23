@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>LLM YouTube Landscape Tracker</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body class="bg-slate-50 text-slate-900">
+  <header class="bg-slate-900 text-white px-6 py-4 shadow">
+    <h1 class="text-xl font-semibold">LLM YouTube Landscape Tracker</h1>
+    <p class="text-sm text-slate-300 mt-1">
+      Transcript-grounded summaries of LLM videos. Updated every 6h. <span id="meta"></span>
+    </p>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 py-6">
+    <section class="mb-4 flex flex-wrap gap-3 items-end">
+      <div>
+        <label class="block text-xs text-slate-500">Search</label>
+        <input id="q" type="search" placeholder="title, channel, summary..."
+               class="border border-slate-300 rounded px-2 py-1 w-72" />
+      </div>
+      <div>
+        <label class="block text-xs text-slate-500">Channel</label>
+        <select id="channel" class="border border-slate-300 rounded px-2 py-1"></select>
+      </div>
+      <div class="flex-1 min-w-[300px]">
+        <label class="block text-xs text-slate-500">Topic tags (click to toggle)</label>
+        <div id="tags" class="flex flex-wrap gap-1"></div>
+      </div>
+    </section>
+
+    <table class="w-full text-sm border-collapse">
+      <thead class="bg-slate-200 text-left">
+        <tr>
+          <th class="px-2 py-1 cursor-pointer" data-sort="published_at">Published ▾</th>
+          <th class="px-2 py-1 cursor-pointer" data-sort="channel">Channel</th>
+          <th class="px-2 py-1">Title</th>
+          <th class="px-2 py-1">Tags</th>
+          <th class="px-2 py-1">Source</th>
+        </tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+    <p id="empty" class="hidden text-slate-500 mt-4">No videos match the current filters.</p>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>
