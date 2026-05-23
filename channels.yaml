@@ -1,0 +1,21 @@
+# Seed channels. channel_id is the canonical YouTube ID (starts with "UC").
+# To find one: open the channel's About page → "Share channel" → "Copy channel ID".
+channels:
+  - name: Yannic Kilcher
+    channel_id: UCZHmQk67mSJgfCCTn7xBfew
+  - name: DeepLearningAI
+    channel_id: UCcIXc5mJsHVYTZR1maL5l9w
+  - name: AI Coffee Break with Letitia
+    channel_id: UCobqgqE4i5Kf7wrxRxhToQA
+  - name: Two Minute Papers
+    channel_id: UCbfYPyITQ-7l4upoX8nvctg
+  - name: AI Explained
+    channel_id: UCNJ1Ymd5yFuUPtn21xtRbbw
+  - name: Andrej Karpathy
+    channel_id: UCPk8m_r6fkUSYmvgCBwq-sw
+  - name: Matthew Berman
+    channel_id: UCawZsQWqfGSbCI5yjkdVkTA
+  - name: AI Jason
+    channel_id: UCNNtbR2fNDDoFraitPCsCkw
+  - name: sentdex
+    channel_id: UCfzlCWGWYyIQ0aLC5w48gBQ
