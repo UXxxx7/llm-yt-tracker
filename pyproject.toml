@@ -6,7 +6,7 @@ requires-python = ">=3.11"
 dependencies = [
     "google-api-python-client==2.149.0",
     "yt-dlp==2025.12.8",
-    "openai==1.55.0",
+    "openai==1.58.1",
     "pyyaml==6.0.2",
     "python-dotenv==1.0.1",
 ]
