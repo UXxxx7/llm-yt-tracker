@@ -32,9 +32,13 @@ def transcribe(video_id, url, workdir=None):
         wtext = _run_whisper(audio)
     finally:
         try:
+            audio_size = Path(audio).stat().st_size if Path(audio).exists() else 0
             Path(audio).unlink(missing_ok=True)
         except Exception:
-            pass
+            audio_size = 0
+
+    log.info("whisper returned %d chars for %s (audio %d KB)",
+             len(wtext or ""), video_id, audio_size // 1024)
 
     if wtext and len(wtext) >= MIN_TRANSCRIPT_CHARS:
         return {"source": "whisper", "text": wtext, "chars": len(wtext)}
