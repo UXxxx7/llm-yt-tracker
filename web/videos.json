@@ -1359,6 +1359,29 @@
     "pipeline_version": "1.0.0"
   },
   {
+    "video_id": "mU3g2YPKlsA",
+    "channel": "Yannic Kilcher",
+    "channel_id": "UCZHmQk67mSJgfCCTn7xBfew",
+    "title": "On the Biology of a Large Language Model (Part 1)",
+    "published_at": "2025-04-05T16:17:00Z",
+    "url": "https://www.youtube.com/watch?v=mU3g2YPKlsA",
+    "duration_seconds": 3245,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 40743,
+    "transcript_excerpt": "Kind: captions Language: en Hello. Today we're taking a look at on the biology of a large language model which is a sort of paper published by anthropic on their kind of series on transformer circuits where they investigate what's going on inside of transformer language models and sort of how do they come to their conclusions. Can we say anything about what's happening internally? Obviously a lot of people uh nowadays are talking about reasoning models and things like this. Um but and now like s",
+    "summary": "講者はAnthropicの論文を紹介し、トランスフォーマーモデルの内部解釈のために回路トレーシングとトランスコーダを用いた手法を説明する。また、トランスコーダによる説明が実際のモデルの動作を正しく反映しているかについて懐疑的な見解を示している。",
+    "topic_tags": [
+      "interpretability"
+    ],
+    "key_quotes": [
+      "Nobody ever programmed any of these models to do for example poetry or addition um or multilinguality or anything like this. And the question is can we say anything about how that happens internally.",
+      "the biggest criticism you could uh levy here and that's probably the crux of the paper are what the transcoders do actually the thing that happens in the transformers or are you simply kind of getting the same output but the transcoder is leading you to a quite wrong conclusion about what happens"
+    ],
+    "related_channels": [],
+    "processed_at": "2026-05-24T08:58:47Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
     "video_id": "WKF__cJTxvg",
     "channel": "sentdex",
     "channel_id": "UCfzlCWGWYyIQ0aLC5w48gBQ",
