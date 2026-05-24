@@ -1,6 +1,6 @@
 # LLM YouTube Landscape Tracker — Report
 
-**Live site:** https://uxxxx7.github.io/llm-yt-tracker/
+**Live site:** https://UXxxx7.github.io/llm-yt-tracker/
 **Repository:** this repo
 **Author:** YMX
 **Date:** 2026-05-24
@@ -296,7 +296,7 @@ data:
 
 ### 5.4 Live-site demonstration
 
-The page at `https://uxxxx7.github.io/llm-yt-tracker/` shows the table
+The page at `https://UXxxx7.github.io/llm-yt-tracker/` shows the table
 with all the deliverables visible at once: 65 rows, channel filter,
 controlled-tag chip filter, full-text search, sortable columns, and a
 visible last-refresh timestamp in the header confirming auto-update is
