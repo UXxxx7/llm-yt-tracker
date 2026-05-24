@@ -67,7 +67,7 @@ def _call(prompt, model=DEEPSEEK_MODEL):
         model=model,
         messages=[{"role": "user", "content": prompt}],
         temperature=0.2,
-        max_tokens=600,
+        max_tokens=1500,
     )
     return resp.choices[0].message.content
 
@@ -78,8 +78,14 @@ def summarise(transcript, controlled_tags, known_channels):
     last_error = None
 
     for attempt in range(3):
+        raw = None
         try:
             raw = _call(prompt)
+            if not raw or not raw.strip():
+                last_error = RuntimeError("empty response from model")
+                log.warning("empty response (attempt %d), retrying after backoff", attempt + 1)
+                time.sleep(2 ** attempt)
+                continue
             data = _extract_json(raw)
             return {
                 "summary": str(data.get("summary", "")).strip(),
@@ -89,7 +95,7 @@ def summarise(transcript, controlled_tags, known_channels):
             }
         except json.JSONDecodeError as e:
             last_error = e
-            log.warning("JSON parse fail (attempt %d): %s", attempt + 1, e)
+            log.warning("JSON parse fail (attempt %d): %s | raw[:300]=%r", attempt + 1, e, (raw or "")[:300])
             prompt += "\n\nIMPORTANT: your previous response was not valid JSON. Return ONLY the JSON object."
         except Exception as e:
             last_error = e
