@@ -23,7 +23,10 @@ YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY", "")
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 
-DEEPSEEK_BASE_URL = "https://api.deepseek.com"
+# Base URLs are overridable so the project can route through a domestic
+# OpenAI-compatible proxy. Leave the env var unset to hit the official API.
+DEEPSEEK_BASE_URL = os.getenv("DEEPSEEK_BASE_URL", "https://api.deepseek.com")
+OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL") or None
 DEEPSEEK_MODEL = "deepseek-chat"
 WHISPER_MODEL = "whisper-1"
 

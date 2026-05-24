@@ -11,6 +11,20 @@ One-time setup, in order. Steps marked **(skip if done)** can be reused later.
 
 `cp .env.example .env` and paste the three values.
 
+### Using a domestic API proxy (optional)
+
+If the host machine can't reach `api.openai.com` / `api.deepseek.com` directly,
+route through any OpenAI-compatible proxy by setting these in `.env`:
+
+```
+DEEPSEEK_BASE_URL=https://your-proxy.example.com/v1
+OPENAI_BASE_URL=https://your-proxy.example.com/v1
+```
+
+`DEEPSEEK_API_KEY` and `OPENAI_API_KEY` then become whatever credentials the
+proxy expects (often the same key for both). Leave the URLs unset to use the
+official endpoints.
+
 ## 2. uv + deps
 
 Install uv (one-time, system-wide): https://docs.astral.sh/uv/getting-started/installation/

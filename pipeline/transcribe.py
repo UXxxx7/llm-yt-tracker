@@ -10,7 +10,7 @@ import subprocess
 import tempfile
 from pathlib import Path
 
-from pipeline.config import MIN_TRANSCRIPT_CHARS, OPENAI_API_KEY, WHISPER_MODEL
+from pipeline.config import MIN_TRANSCRIPT_CHARS, OPENAI_API_KEY, OPENAI_BASE_URL, WHISPER_MODEL
 
 log = logging.getLogger(__name__)
 
@@ -110,7 +110,7 @@ def _run_whisper(audio_path):
         log.error("OPENAI_API_KEY missing, cannot run Whisper")
         return ""
     from openai import OpenAI
-    client = OpenAI(api_key=OPENAI_API_KEY)
+    client = OpenAI(api_key=OPENAI_API_KEY, base_url=OPENAI_BASE_URL)
     with open(audio_path, "rb") as f:
         resp = client.audio.transcriptions.create(
             model=WHISPER_MODEL,
