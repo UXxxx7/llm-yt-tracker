@@ -25,6 +25,18 @@ OPENAI_BASE_URL=https://your-proxy.example.com/v1
 proxy expects (often the same key for both). Leave the URLs unset to use the
 official endpoints.
 
+If the proxy exposes models under non-standard names (e.g. `deepseek-v3`
+instead of `deepseek-chat`), override them too:
+
+```
+DEEPSEEK_MODEL=deepseek-v3
+WHISPER_MODEL=whisper-1
+```
+
+A 503 like `No available channel for model <name> under group default` from
+the proxy usually means the model ID is wrong — check the proxy console for
+the exact ID it accepts.
+
 ## 2. uv + deps
 
 Install uv (one-time, system-wide): https://docs.astral.sh/uv/getting-started/installation/

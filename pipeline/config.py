@@ -27,8 +27,11 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 # OpenAI-compatible proxy. Leave the env var unset to hit the official API.
 DEEPSEEK_BASE_URL = os.getenv("DEEPSEEK_BASE_URL", "https://api.deepseek.com")
 OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL") or None
-DEEPSEEK_MODEL = "deepseek-chat"
-WHISPER_MODEL = "whisper-1"
+# Model IDs are overridable so the project can talk to proxies that expose
+# the same model under a different name (e.g. "deepseek-v3" instead of
+# "deepseek-chat"). Defaults match the official APIs.
+DEEPSEEK_MODEL = os.getenv("DEEPSEEK_MODEL", "deepseek-chat")
+WHISPER_MODEL = os.getenv("WHISPER_MODEL", "whisper-1")
 
 MIN_TRANSCRIPT_CHARS = 1000
 MIN_DURATION_SECONDS = 90
