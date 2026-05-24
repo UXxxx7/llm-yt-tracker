@@ -970,6 +970,34 @@
     "pipeline_version": "1.0.0"
   },
   {
+    "video_id": "_uo7CXd33Uc",
+    "channel": "Two Minute Papers",
+    "channel_id": "UCbfYPyITQ-7l4upoX8nvctg",
+    "title": "NVIDIA’s AI Finally Solved Walking In Games",
+    "published_at": "2025-12-21T14:46:29Z",
+    "url": "https://www.youtube.com/watch?v=_uo7CXd33Uc",
+    "duration_seconds": 528,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 8242,
+    "transcript_excerpt": "Kind: captions Language: en You’re probably looking at this and are&nbsp; thinking: “I’ve seen little 3D people&nbsp;&nbsp; walking on grids”. Nothing new here,&nbsp; right? But have you seen this? Oh yes!&nbsp; So, you are absolutely right, these&nbsp; walking movements don’t seem anything&nbsp;&nbsp; new. We have plenty of games already&nbsp; with moving characters. So what’s new?&nbsp; Now, you see, in most computer games, these&nbsp; NPCs are essentially floating capsules.&nbsp;&nbsp; The ga",
+    "summary": "演讲者介绍了一种基于扩散模型（Trace）和强化学习（Pacer）的物理模拟运动系统，使虚拟角色能够自然地行走、攀爬和避开障碍，无需预录动画。该系统通过“大脑”预测路径和“肌肉”实时控制关节，并利用对抗性强化学习训练，生成多样化的行人行为，可用于训练自动驾驶汽车。",
+    "topic_tags": [
+      "agents",
+      "robotics",
+      "open-source-models"
+    ],
+    "key_quotes": [
+      "They have these little agents that are not capsules, but are actually physically simulated.",
+      "A technique called Trace is the brain here. It uses a diffusion model... it imagines the future and predicts where open space might appear.",
+      "If the muscle is about to slip a rock, it says 'holy crap, help me!' and the brain says 'okay, okay', and plans a new, safer path."
+    ],
+    "related_channels": [
+      "Two Minute Papers"
+    ],
+    "processed_at": "2026-05-24T07:52:05Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
     "video_id": "v67plFw1nMw",
     "channel": "Yannic Kilcher",
     "channel_id": "UCZHmQk67mSJgfCCTn7xBfew",
