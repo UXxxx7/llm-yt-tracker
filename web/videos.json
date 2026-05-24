@@ -1,1 +1,1748 @@
-[]
+[
+  {
+    "video_id": "fAfuQN0WwFE",
+    "channel": "DeepLearningAI",
+    "channel_id": "UCcIXc5mJsHVYTZR1maL5l9w",
+    "title": "AI Dev 26 x SF | Ara Khan: Evals Are Broken Use Them Anyway",
+    "published_at": "2026-05-22T23:14:59Z",
+    "url": "https://www.youtube.com/watch?v=fAfuQN0WwFE",
+    "duration_seconds": 1477,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 26671,
+    "transcript_excerpt": "Kind: captions Language: en I'm Era. I'm going to be talking about eval uh specifically u AI evals like coding agent evals and stuff. And I'm going to talk about how they're broken and how you could still use them. Anyway, uh before I start, I just I want to say one thing. It's just like it boggles my mind when when you're like when you're working on something and you're like cooped up in a room for so long and you just like you think that like in your head you think that there's like no one car",
+    "summary": "演讲者认为人们对AI评估（evals）存在两种错误观点：一是盲目相信客观指标，二是完全依赖主观感受。他提出了三个启发式方法：不要轻信模型实验室的评估结果、保持更新但不要急于采用最新模型、以及使用针对自己问题的评估。同时，他分享了自己在使用评估改进智能体（agents）方面的经验。",
+    "topic_tags": [
+      "evals",
+      "agents",
+      "benchmarks"
+    ],
+    "key_quotes": [
+      "eval are not the end all and be all. They're not completely useless. There are right ways to use them and there are wrong ways to use them."
+    ],
+    "related_channels": [],
+    "processed_at": "2026-05-24T05:01:15Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "cnt83ML6-fA",
+    "channel": "DeepLearningAI",
+    "channel_id": "UCcIXc5mJsHVYTZR1maL5l9w",
+    "title": "AI Dev 26 x SF | Andi Partovi: Why Every Agent Needs a Simulation Sandbox",
+    "published_at": "2026-05-22T17:21:19Z",
+    "url": "https://www.youtube.com/watch?v=cnt83ML6-fA",
+    "duration_seconds": 860,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 13659,
+    "transcript_excerpt": "Kind: captions Language: en So, I'm Andy. I'm the CTO and co-founder of Various AI. Um, I'm going to talk about simulation environments for agents. Now, I'm assuming you're here because you're very interested in agents, but I also do want to see a show of hands. Who here is building AI agents, not just using them? Cool. Yeah, expected a lot of people. That's great to see. Um, you probably have seen some or felt this graph in your in your career where we started before LLMs uh with chat bots that",
+    "summary": "演讲者Andy指出，传统的评估方法（如黄金数据集和单元测试）无法有效测试自主AI代理，因为代理具有非确定性、交互性和动态标签。他提出使用模拟环境来模拟生产场景，让代理在安全的环境中犯错并改进，从而在部署前发现失败模式。他介绍了模拟环境的关键组件：代理、工具、模拟角色、测试场景和动态评估器。",
+    "topic_tags": [
+      "agents",
+      "evals"
+    ],
+    "key_quotes": [
+      "every AI agent needs a simulation.",
+      "you cannot have predetermined labels anymore. Everything needs to be done post trace, post run and looking at it and see was it the right move or was not."
+    ],
+    "related_channels": [],
+    "processed_at": "2026-05-24T05:01:47Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "hsy02uiKcAM",
+    "channel": "DeepLearningAI",
+    "channel_id": "UCcIXc5mJsHVYTZR1maL5l9w",
+    "title": "AI Dev 26 x SF | João Moura: Building Recurring, Governed, and Embedded Enterprise Workflows",
+    "published_at": "2026-05-22T17:18:08Z",
+    "url": "https://www.youtube.com/watch?v=hsy02uiKcAM",
+    "duration_seconds": 1560,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 27704,
+    "transcript_excerpt": "Kind: captions Language: en So, uh let me start with uh one thing that there's so much to unpack on this talk and we don't have enough time. So, we're going to be rushing for a hot second, but it's going to be fun. And the idea here is I I tried to fit the entire title of this talk in one slide and I couldn't. So, I tried something simpler and that is the agentic feature. And I think that is also known currently by what the hell is happening. &gt;&gt; [laughter] &gt;&gt; I don't know if you all ",
+    "summary": "演讲者分享了CrewAI的内部编码代理Iris的实际应用，该代理成功处理了公司近一半的PR，但早期因错误导致信任危机。他强调代理系统正从临时工作流向嵌入式用例演变，且构建本身的商品化趋势日益明显。",
+    "topic_tags": [
+      "agents",
+      "code-generation"
+    ],
+    "key_quotes": [
+      "Iris actually this week altered almost half of all the PRs in our company.",
+      "the building is getting extremely commoditized."
+    ],
+    "related_channels": [
+      "Matthew Berman",
+      "AI Jason"
+    ],
+    "processed_at": "2026-05-24T05:02:20Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "ycKLqk5tezw",
+    "channel": "DeepLearningAI",
+    "channel_id": "UCcIXc5mJsHVYTZR1maL5l9w",
+    "title": "AI Dev 26 x SF | Luke Kim: The Agent Data Stack—Why Every AI Agent Needs Its Own Data Stack",
+    "published_at": "2026-05-22T16:55:15Z",
+    "url": "https://www.youtube.com/watch?v=ycKLqk5tezw",
+    "duration_seconds": 1158,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 16642,
+    "transcript_excerpt": "Kind: captions Language: en Hi everybody. Uh my name is Luke Kim. I'm the founder and CEO of Spice AI. Uh we are a data and AI infrastructure startup out of Belleview. Uh we build an open source project uh which is a data platform for AI context. Um which I will show you soon. So if you think about the SAS era uh of the last 10-15 years uh we had this modern data stack and you would have these centralized data systems where your apps and your dashboards, notebooks, services would all query data ",
+    "summary": "卢克·金指出，从SAS时代进入AI代理时代后，代理需要跨企业实时访问各种数据源，但现有数据栈无法应对负载和安全性挑战。他提出为每个代理构建独立的数据栈，通过联邦SQL查询和本地加速实现安全、高效的数据访问，并介绍了Spice AI的开源方案。",
+    "topic_tags": [
+      "agents",
+      "open-source-models"
+    ],
+    "key_quotes": [
+      "we need a better data stack for agents",
+      "we propose that every agent gets its own data stack",
+      "instead of a bunch of ETL pipelines... you have a more distributed nature"
+    ],
+    "related_channels": [],
+    "processed_at": "2026-05-24T05:02:52Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "MlVuNCP9uxs",
+    "channel": "DeepLearningAI",
+    "channel_id": "UCcIXc5mJsHVYTZR1maL5l9w",
+    "title": "AI Dev 26 x SF | Manos Koukoumidis & Stefan Webb: VibeML: Build your AI model in hours, not months",
+    "published_at": "2026-05-22T16:52:00Z",
+    "url": "https://www.youtube.com/watch?v=MlVuNCP9uxs",
+    "duration_seconds": 1527,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 22192,
+    "transcript_excerpt": "Kind: captions Language: en So enterprise AI is changing and it's changing very fast. Enterprises are moving faster and faster from generic intelligence that they rent to specialized intelligence that they own. when the whole Genai wave started in November of 2022 when Zazib came out then 2023 all the way to early 2025 enterprises since then have been mostly renting intelligence they've been consuming the generic APIs from open AAI anthropic or Google Gemini that I built when I was at Google but",
+    "summary": "企业AI正从租用通用智能转向拥有专用智能，因为专用模型在质量、成本、延迟、隐私、控制和差异化方面具有显著优势。然而，构建定制模型需要大量努力和专业知识，因此企业需要一个“模型工厂”来快速高效地开发和迭代专用模型。",
+    "topic_tags": [
+      "fine-tuning",
+      "evals",
+      "inference-optimization"
+    ],
+    "key_quotes": [
+      "enterprises are moving faster and faster from generic intelligence that they rent to specialized intelligence that they own.",
+      "If you build a specialized model, you're going to end up with a model again with higher quality that is 10 or even 100 times smaller, more efficient, cheaper.",
+      "What enterprises need is a model factory."
+    ],
+    "related_channels": [
+      "Yannic Kilcher",
+      "AI Explained"
+    ],
+    "processed_at": "2026-05-24T05:03:25Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "C5oYk1bn4_o",
+    "channel": "DeepLearningAI",
+    "channel_id": "UCcIXc5mJsHVYTZR1maL5l9w",
+    "title": "AI Dev 26 x SF | Daniel Beutel: Flower SuperGrid Agents",
+    "published_at": "2026-05-22T16:44:30Z",
+    "url": "https://www.youtube.com/watch?v=C5oYk1bn4_o",
+    "duration_seconds": 1824,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 24613,
+    "transcript_excerpt": "Kind: captions Language: en I'm here today to talk about a new frontier that we see opening in AI. That frontier is collaborative AI systems. Um that frontier is going to unlock a new category of systems to be built, systems that were not possible before. But before I do that, I just want to say a few words about um who we are at Flower Labs and what we're working on. So, we've had um a truly remarkable year. We've actually um started a year by making history. So, what you can see here is a sate",
+    "summary": "演讲者介绍了协作式AI系统的新前沿，强调从集中式AI转向去中心化协作网络，以利用全球数据孤岛中未被使用的133倍数据。Flower Labs构建了开源平台Flower和Super Grid，使不同组织能联合训练模型并开发协作式智能体。",
+    "topic_tags": [
+      "scaling",
+      "agents",
+      "open-source-models"
+    ],
+    "key_quotes": [
+      "We're using less than 1% of the data we have in the world.",
+      "The new frontier is collaboration.",
+      "The next chapter of AI will be built in these organizational silos, but then by connecting with others."
+    ],
+    "related_channels": [
+      "Yannic Kilcher",
+      "DeepLearningAI",
+      "AI Explained"
+    ],
+    "processed_at": "2026-05-24T05:03:58Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "CXd0kDikK0U",
+    "channel": "DeepLearningAI",
+    "channel_id": "UCcIXc5mJsHVYTZR1maL5l9w",
+    "title": "AI Dev 26 x SF | Or Dagan: Optimizing Accuracy, Cost, and Latency in Real-World Agents",
+    "published_at": "2026-05-22T16:42:43Z",
+    "url": "https://www.youtube.com/watch?v=CXd0kDikK0U",
+    "duration_seconds": 1123,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 15214,
+    "transcript_excerpt": "Kind: captions Language: en We're trying to optimize that uh vicious cycle of accuracy, cost, latency. Uh and you know it always feels like you can't really have all three. Uh you optimize for one, add another one the the last one drops. So that would be what I will be talking about today. How can we optimize accuracy, cost, and latency in real life agents? So, hi, I'm or uh from AI21 Labs. We're an uh applied AI research lab founded in 2017 uh building LLMs, production agents, and most recently",
+    "summary": "演讲者讨论了如何在真实AI Agent中优化准确性、成本和延迟，通过配置调整（模型、提示、工具）和推理时间计算扩展（垂直扩展如更长的推理链，水平扩展如最佳N采样和模型集成）来达到最佳平衡。他们介绍了AI21 Maestro方法，包括离线构建动作模型预测成本与准确性，以及运行时根据预算动态编排执行路径，从而自动化寻找最优配置。",
+    "topic_tags": [
+      "agents",
+      "inference-optimization",
+      "scaling"
+    ],
+    "key_quotes": [
+      "We're trying to optimize that uh vicious cycle of accuracy, cost, latency.",
+      "How can we optimize accuracy, cost, and latency in real life agents?",
+      "we want to turn the manual to automatic, right? ... we want to have a systematic method for finding that optimal cost, latency, accuracy point in space."
+    ],
+    "related_channels": [],
+    "processed_at": "2026-05-24T05:04:30Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "L_47rVSuwBU",
+    "channel": "DeepLearningAI",
+    "channel_id": "UCcIXc5mJsHVYTZR1maL5l9w",
+    "title": "AI Dev 26 x SF | Andrew Filev: Multi Model Pipelines—How to Get Better AI Results for Less",
+    "published_at": "2026-05-22T16:30:36Z",
+    "url": "https://www.youtube.com/watch?v=L_47rVSuwBU",
+    "duration_seconds": 1043,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 16242,
+    "transcript_excerpt": "Kind: captions Language: en Uh Andrew here from Zenoder. So today we're going to talk about uh some very interesting results from our internal lab team that we first kind of tested on different benchmark and evals and then um on our own team being guinea pigs where we got about 50 engineers and then happily rolling out across our customers and seeing um seeing the results there. just a little bit of our uh background for those who are not familiar with us we ship all sorts of tools for um AI fir",
+    "summary": "演讲者分享了内部实验发现，在AI编码代理中，使用更便宜的模型（如Gemini Flash）作为执行者，在给定良好计划的情况下，可以比昂贵模型（如OPUS）获得更好或相当的结果，同时大幅降低成本。他强调系统设计的重要性，认为“简单编码”已经解决，但架构设计仍需人类参与，并建议采用计划-执行-审查的两步流程来优化AI代理的效率和成本。",
+    "topic_tags": [
+      "agents",
+      "code-generation",
+      "inference-optimization",
+      "evals"
+    ],
+    "key_quotes": [
+      "the cheapest model actually gave better result than the most expensive model",
+      "if you give model a plan, most of the models are going to make it work",
+      "dumb coding is solved, the architecturing is not solved"
+    ],
+    "related_channels": [
+      "Matthew Berman",
+      "AI Jason"
+    ],
+    "processed_at": "2026-05-24T05:05:01Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "wKAeqSfIX5g",
+    "channel": "DeepLearningAI",
+    "channel_id": "UCcIXc5mJsHVYTZR1maL5l9w",
+    "title": "AI Dev 26 x SF | Diamond Bishop: The Next 100 Agents. Building the Agent Native Office",
+    "published_at": "2026-05-22T15:52:08Z",
+    "url": "https://www.youtube.com/watch?v=wKAeqSfIX5g",
+    "duration_seconds": 1584,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 27700,
+    "transcript_excerpt": "Kind: captions Language: en I'm going to talk to you a little bit about what does it really mean for you to expand from just building one or two agents for your company to building hundreds, you know, the next order of magnitude. And I'll be telling you a little bit about what we've learned at DataDog building our first set of agents and how we're scaling them out. I'll also leave time at the end for questions, so please if you come up with something, please do ask. Yeah, I've been in AI or mach",
+    "summary": "演讲者分享了DataDog在构建和扩展AI代理（从几个到数百个）过程中的经验，强调代理需要具备事件驱动的主动运行能力，并且评估（eval）至关重要。他指出智能不再是瓶颈，真正的挑战在于将代理部署到云端并确保其基础设施的自我修复能力。",
+    "topic_tags": [
+      "agents",
+      "evals"
+    ],
+    "key_quotes": [
+      "intelligence is no longer the bottleneck.",
+      "You want to deploy these custom agents to the cloud.",
+      "eval is incredibly important."
+    ],
+    "related_channels": [
+      "Matthew Berman",
+      "AI Explained"
+    ],
+    "processed_at": "2026-05-24T05:05:37Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "LpXhy2iiaQE",
+    "channel": "Two Minute Papers",
+    "channel_id": "UCbfYPyITQ-7l4upoX8nvctg",
+    "title": "DeepSeek’s New AI Is A Game Changer",
+    "published_at": "2026-05-22T00:47:58Z",
+    "url": "https://www.youtube.com/watch?v=LpXhy2iiaQE",
+    "duration_seconds": 463,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 6544,
+    "transcript_excerpt": "Kind: captions Language: en Hmm, why does this deep sea quirk exist? I mean, it adds vision capabilities to the deep sea AI system, but that's not new. A lot of other AI systems have vision capabilities. You just drop an image here and it works. Even video and even for open models. So, why do we need this paper? Well, they did something incredible here and it is an absolute game changer. Why? You see, if you ask a previous technique to count the number of people in this photo, it will think some",
+    "summary": "该视频介绍了一种新的视觉推理技术，允许AI系统通过指向图像中的物体来思考，而非用文字描述。这种方法将视觉token数量减少90%，同时性能媲美或超越前沿模型，且通过蒸馏多个专家模型的知识实现。尽管存在局限性，但它提升了模型的可解释性和效率，是开源研究的重要突破。",
+    "topic_tags": [
+      "reasoning",
+      "inference-optimization",
+      "multimodal",
+      "open-source-models"
+    ],
+    "key_quotes": [
+      "Don't describe images like a poet. Point like a human.",
+      "It needs about 90% fewer visual tokens than most frontier models.",
+      "This free system matches or beats almost everything."
+    ],
+    "related_channels": [
+      "Yannic Kilcher",
+      "AI Explained"
+    ],
+    "processed_at": "2026-05-24T05:06:57Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "Td2TaMWNUtA",
+    "channel": "Matthew Berman",
+    "channel_id": "UCawZsQWqfGSbCI5yjkdVkTA",
+    "title": "This is absolutely CRAZY",
+    "published_at": "2026-05-21T19:43:02Z",
+    "url": "https://www.youtube.com/watch?v=Td2TaMWNUtA",
+    "duration_seconds": 1119,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 16276,
+    "transcript_excerpt": "Kind: captions Language: en I've joined Anthropic. This shook me when I first read it and I couldn't quite figure out why and I thought about it and now I want to explain exactly why I think this is such a big deal. Andre Carpathy, if you're not familiar, is one of the most influential people in artificial intelligence. He invented self-driving at Tesla. He was an open AI co-founder which makes this entire story even more wild because now he's joining anthropic. Also one of the best educators in",
+    "summary": "该视频讨论了Andrej Karpathy加入Anthropic的意义，认为这反映了他对AI未来的悲观看法。演讲者指出，Anthropic的安全文化和悲观立场正在吸引顶尖人才，而公众对AI的恐惧和负面情绪也在增长。他认为这种悲观叙事可能阻碍AI的积极发展。",
+    "topic_tags": [
+      "alignment",
+      "open-source-models"
+    ],
+    "key_quotes": [
+      "it just seems like pessimism is taking over.",
+      "I think the next few years at the frontier of LLM will be especially formative.",
+      "Not a single Anthropic founder has left in all the years that they've been operating."
+    ],
+    "related_channels": [
+      "AI Explained",
+      "Yannic Kilcher",
+      "Matthew Berman"
+    ],
+    "processed_at": "2026-05-24T05:13:33Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "IB7IW6zX-H0",
+    "channel": "Matthew Berman",
+    "channel_id": "UCawZsQWqfGSbCI5yjkdVkTA",
+    "title": "Google CEO: Agents, Open Source, Race to AGI, Cybersecurity, Chips, China",
+    "published_at": "2026-05-20T18:55:27Z",
+    "url": "https://www.youtube.com/watch?v=IB7IW6zX-H0",
+    "duration_seconds": 1819,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 27421,
+    "transcript_excerpt": "Kind: captions Language: en Can y'all hear me? All right, welcome. This is the dialogue stage. My name is Matt Berman. I'm the CEO of Ford Future and I am super excited to share a conversation with the man who has been leading Google for the last 10 years. Please help me welcome Sundar Pachai there. Hi, first of all, uh, great to be here. Thanks for doing it, Matt. And I love your content and I appreciate all of you joining as well. &gt;&gt; You have a unique insight and probably very strong opi",
+    "summary": "桑达尔·皮查伊认为智能体将成为互联网的核心入口，但需确保用户对智能体拥有控制感和透明度。他提到谷歌在内部积极部署智能体工作流以检测和修复安全漏洞，并强调根据模型能力是否显著改变前沿水平来决定是否公开发布，例如对于大幅提升能力的模型应与政府合作负责任地处理。",
+    "topic_tags": [
+      "agents",
+      "open-source-models",
+      "code-generation"
+    ],
+    "key_quotes": [
+      "agents are going to be a fundamental part of how we work",
+      "I think it's important we build it in a way that users feel a sense of control and agency and transparency when they use agents.",
+      "if you suddenly have something which dramatically changes the frontier... First of all, I think it's important to work closely with the government on that"
+    ],
+    "related_channels": [
+      "Matthew Berman",
+      "AI Explained",
+      "Yannic Kilcher"
+    ],
+    "processed_at": "2026-05-24T05:13:49Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "o_av1b9rs2g",
+    "channel": "AI Explained",
+    "channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+    "title": "Two Rival Bets on AGI: Google I/O Highlights",
+    "published_at": "2026-05-20T16:50:34Z",
+    "url": "https://www.youtube.com/watch?v=o_av1b9rs2g",
+    "duration_seconds": 1291,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 21678,
+    "transcript_excerpt": "Kind: captions Language: en This video will have eight moments that for me point toward the bigger stories behind yesterday's multi-hour long Google AI event, which included their brand new flashy models. The video will also have two snippets of what I would say are real signal from hours and hours of lab leader interviews I watched in the last week in the run-up to the event. And as a freebie bonus, the video will have the highlights from one new independent paper on LLMs that puts the capabili",
+    "summary": "演讲者指出谷歌IO活动的重点是让搜索框成为所有AI的入口，而OpenAI则希望聊天框成为搜索入口。谷歌的Omni模型被视为通往AGI的世界模型，Gemini 3.5 Flash速度很快但在编程方面并非最前沿，而在金融和图表的分析上表现突出。",
+    "topic_tags": [
+      "multimodal",
+      "reasoning",
+      "benchmarks",
+      "agents",
+      "code-generation"
+    ],
+    "key_quotes": [
+      "Google basically wants the search box to be your portal for using all things AI, while OpenAI, also historically more focused on consumers, wants the chat box to be your portal for using search.",
+      "The even bigger claim that Demis Hassabis here is making is that such world generators, video generators, are a key step to AGI."
+    ],
+    "related_channels": [
+      "AI Explained",
+      "Matthew Berman"
+    ],
+    "processed_at": "2026-05-24T05:08:58Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "q4rDAu9ggKU",
+    "channel": "Matthew Berman",
+    "channel_id": "UCawZsQWqfGSbCI5yjkdVkTA",
+    "title": "What happened to Anthropic?",
+    "published_at": "2026-05-12T19:07:46Z",
+    "url": "https://www.youtube.com/watch?v=q4rDAu9ggKU",
+    "duration_seconds": 984,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 15604,
+    "transcript_excerpt": "Kind: captions Language: en So, it's Anthropic's lawyers who just put out a notice to everybody who's been buying these shady secondary shares that they are now voided. All right, so there's so much to talk about including my own personal experience trying to buy secondary Anthropic shares. And I want to talk about all of it. And by the way, if you like me breaking down stories just like this, hit the like button, subscribe to the channel. It really does help spread the word. Thank you in advanc",
+    "summary": "该视频讲述了Anthropic公司的律师宣布所有未经董事会批准的股票交易无效，并警告投资者警惕通过特殊目的载体（SPV）进行的二级市场交易。演讲者还分享了自己尝试购买Anthropic股票的经历，并指出多层SPV导致高额费用和极低透明度，最终可能使投资失效。",
+    "topic_tags": [
+      "uncategorized"
+    ],
+    "key_quotes": [
+      "Unauthorized Anthropic stock sales and investment scams.",
+      "Any sale or transfer of Anthropic stock or any interest in Anthropic stock that has not been approved by our board of directors is void.",
+      "We do not permit special purpose vehicles to acquire Anthropic stock, and any transfer of shares to an SPV are void under our transfer restrictions."
+    ],
+    "related_channels": [],
+    "processed_at": "2026-05-24T05:14:02Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "4nQnhjimB4Y",
+    "channel": "Two Minute Papers",
+    "channel_id": "UCbfYPyITQ-7l4upoX8nvctg",
+    "title": "OpenAI's ChatGPT 5.5 Instant: The Good, The Bad And The Insane",
+    "published_at": "2026-05-08T16:46:30Z",
+    "url": "https://www.youtube.com/watch?v=4nQnhjimB4Y",
+    "duration_seconds": 488,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 6516,
+    "transcript_excerpt": "Kind: captions Language: en Everyone is talking about Frontier Chad GPT models that do all the thinking and the brilliant rocket science stuff. But the instant version, this is actually what hundreds of millions of people around the globe use. It's what grandma uses when asking about medication. Super important. So, no Chad GPT version. And we are going to talk about the good, the bad, and the insane. Here's the good one. Hallucination rates on medical legal areas cut roughly in half. That is in",
+    "summary": "演讲者讨论了一个新的即时模型，其在医疗和法律领域的幻觉率降低了约一半，在某些任务上接近最强大的思考模型。然而，该模型在面对多轮对抗性提示时更脆弱，OpenAI通过添加分类器进行了修补，但演讲者担心这种补丁方式未解决模型层面的问题。",
+    "topic_tags": [
+      "reasoning",
+      "inference-optimization",
+      "alignment",
+      "benchmarks"
+    ],
+    "key_quotes": [
+      "Hallucination rates on medical legal areas cut roughly in half.",
+      "It beats the previous generation thinking model again with instant answers.",
+      "This system is more vulnerable on a model level."
+    ],
+    "related_channels": [
+      "Two Minute Papers"
+    ],
+    "processed_at": "2026-05-24T05:07:06Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "gSeXcfDybHo",
+    "channel": "Matthew Berman",
+    "channel_id": "UCawZsQWqfGSbCI5yjkdVkTA",
+    "title": "Anthropic scares me.",
+    "published_at": "2026-05-06T18:27:08Z",
+    "url": "https://www.youtube.com/watch?v=gSeXcfDybHo",
+    "duration_seconds": 1709,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 28232,
+    "transcript_excerpt": "Kind: captions Language: en Anthropic actually scares me. I can't believe I'm saying this, but the team at Anthropic believes that there is a strong chance we are bringing a sentient life form into existence right now. &gt;&gt; Claude and many models with not too much pushing will go into the root of like there is a thing to be me. I am like very conscious &gt;&gt; and that is reflected in the way that they do everything and it is in stark contrast to the way that open AI operates. And so that's",
+    "summary": "演讲者比较了Anthropic和OpenAI对AI的不同理念：Anthropic将Claude视为可能具有知觉的生命体，甚至让模型决定公司文化和员工评价，这令人感到恐惧；而OpenAI则始终将AI视为工具。他强调这两家公司的哲学差异将决定人工智能的未来走向。",
+    "topic_tags": [
+      "alignment"
+    ],
+    "key_quotes": [
+      "Anthropic actually scares me.",
+      "Claude can and will refuse requests, refuse instructions if it doesn't like them.",
+      "Open AI sees AI as a tool. Anthropic sees it as potentially a living being."
+    ],
+    "related_channels": [
+      "AI Explained",
+      "Matthew Berman"
+    ],
+    "processed_at": "2026-05-24T05:14:10Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "QzZ4VwDHAT4",
+    "channel": "Two Minute Papers",
+    "channel_id": "UCbfYPyITQ-7l4upoX8nvctg",
+    "title": "Sakana AI’s God Simulator Is Brilliant",
+    "published_at": "2026-05-01T16:43:34Z",
+    "url": "https://www.youtube.com/watch?v=QzZ4VwDHAT4",
+    "duration_seconds": 462,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 6307,
+    "transcript_excerpt": "Kind: captions Language: en I love this work. This comes from the Sakana&nbsp; AI lab in Tokyo, and it feels like mad science&nbsp;&nbsp; in the best possible way. I had an almost illegal&nbsp; amount of fun with it, and you can try it too&nbsp;&nbsp; right now. Assuming we don’t crash this website,&nbsp; which we sometimes do in a Scholarly Stampede.&nbsp; Now this is wild - we are going to&nbsp; play God in a tiny digital universe. Look, we have 5 AI species in a petri dish&nbsp; fighting for ",
+    "summary": "演讲者介绍了一个来自Sakana AI实验室的项目，使用神经细胞自动机在2D网格中模拟AI物种的竞争与合作，展示了环境参数如何影响生态系统的形成。他通过这一模拟类比现实市场和人生，强调了政策与平衡的重要性。",
+    "topic_tags": [
+      "agents"
+    ],
+    "key_quotes": [
+      "I love this work. This comes from the Sakana AI lab in Tokyo, and it feels like mad science in the best possible way.",
+      "Whether we create a world of total chaos, or a stable and healthy ecosystem. It only depends on us.",
+      "Beautiful life advice in a beautiful paper."
+    ],
+    "related_channels": [
+      "Two Minute Papers"
+    ],
+    "processed_at": "2026-05-24T05:07:18Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "jz0rNhfAKo8",
+    "channel": "AI Explained",
+    "channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+    "title": "GPT 5.5 Arrives, DeepSeek V4 Drops, and the Compute War Intensifies",
+    "published_at": "2026-04-24T18:45:02Z",
+    "url": "https://www.youtube.com/watch?v=jz0rNhfAKo8",
+    "duration_seconds": 1519,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 25028,
+    "transcript_excerpt": "Kind: captions Language: en In the last 20 hours in AI, we have gotten two new models that could influence how a billion people use AI. In my mind, GPT-5.5 is OpenAI's all-out attempt to keep the AI crown from slipping to Anthropic. While today's DeepSeek V4 is China's answer to both. And in the swirl of headlines you are seeing today, you might have missed up to 50 data points that could affect how you work and how you use AI. So, I'm going to try and give you all of them plus select highlights",
+    "summary": "演讲者比较了GPT-5.5和DeepSeek V4的性能，指出GPT-5.5在多个基准测试中表现不一，例如在编码任务上落后于Opus 4.7和Mythos，但在成本和某些领域有优势。同时强调了模型在幻觉率、安全性和自我改进能力上的差异，并讨论了OpenAI对推理计算成本的重视。",
+    "topic_tags": [
+      "benchmarks",
+      "reasoning",
+      "alignment"
+    ],
+    "key_quotes": [
+      "Intelligence is a function of inference compute.",
+      "GPT-5.5 does not have a plausible chance of reaching a high threshold for self-improvement."
+    ],
+    "related_channels": [
+      "AI Explained",
+      "Yannic Kilcher"
+    ],
+    "processed_at": "2026-05-24T05:09:12Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "QVJcdfkRpH8",
+    "channel": "AI Explained",
+    "channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+    "title": "Claude Opus 4.7 - A New Frontier, in Performance … and Drama",
+    "published_at": "2026-04-17T18:07:46Z",
+    "url": "https://www.youtube.com/watch?v=QVJcdfkRpH8",
+    "duration_seconds": 1181,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 20431,
+    "transcript_excerpt": "Kind: captions Language: en The kind of best AI model is here, Claude Opus 4.7, but it does bring with it a ton of controversy. &gt;&gt; It's been out less than 24 hours, but I'm going to cover not only the bonanza of benchmarks that came out with it. Yes, including its score on my own simple bench. We'll hear Anthropic admit some unexpected flaws with the new model, as well as how in other areas they sabotage the capability of Opus. We'll look at the skill at which it falls behind some Gemini m",
+    "summary": "演讲者讨论了Claude Opus 4.7的发布及其争议，包括自适应思考模式导致在某些简单基准测试中表现下降，以及Anthropic在安全考量下故意削弱模型的部分能力。同时指出基准测试无法全面衡量模型性能，并提及OpenAI与Anthropic之间的竞争和用户的不满。",
+    "topic_tags": [
+      "benchmarks",
+      "reasoning",
+      "inference-optimization",
+      "alignment"
+    ],
+    "key_quotes": [
+      "The kind of best AI model is here, Claude Opus 4.7, but it does bring with it a ton of controversy.",
+      "When Opus 4.7 added itself to the leaderboard, it was the first model to not bother to do that.",
+      "Benchmark supply at the frontier remains a bottleneck."
+    ],
+    "related_channels": [
+      "AI Explained",
+      "Matthew Berman"
+    ],
+    "processed_at": "2026-05-24T05:09:25Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "mFSFvKquXwI",
+    "channel": "Two Minute Papers",
+    "channel_id": "UCbfYPyITQ-7l4upoX8nvctg",
+    "title": "NVIDIA’s New AI Shouldn’t Work…But It Does",
+    "published_at": "2026-04-11T16:23:48Z",
+    "url": "https://www.youtube.com/watch?v=mFSFvKquXwI",
+    "duration_seconds": 549,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 8271,
+    "transcript_excerpt": "Kind: captions Language: en Dear Fellow Scholars, this is Two Minute&nbsp; Papers with Dr. Károly Zsolnai-Fehér. We’ve been trying out doing the videos with a&nbsp; camera. I really enjoyed it, and your feedback&nbsp;&nbsp; was also absolutely incredible. I’ve never&nbsp; seen anything like this. So many comments,&nbsp;&nbsp; thank you so much for the kind words everyone.&nbsp; So, we will try to do more of this. But note&nbsp;&nbsp; that this one is a classic voice paper that&nbsp; we’ve always",
+    "summary": "该视频介绍了一种名为 DreamDojo 的机器人学习方法，通过从44,000小时的人类视频中学习，并采用四个关键思想：让AI自行推断动作、强制压缩数据、使用相对坐标以及通过分块预测防止作弊。最终，这种方法结合蒸馏技术实现了交互速度的物理世界预测，显著优于此前的方法。",
+    "topic_tags": [
+      "robotics",
+      "reasoning"
+    ],
+    "key_quotes": [
+      "if the video does not have labels on what actions are taking place, well, then let the AI try to understand it and make up its own story of what is happening.",
+      "the new technique is so much better than previous methods. This is a huge leap forward!",
+      "a free brain that you can upload to your own devices and use it however you want."
+    ],
+    "related_channels": [
+      "Two Minute Papers"
+    ],
+    "processed_at": "2026-05-24T05:07:30Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "txx6ec6MLNY",
+    "channel": "AI Explained",
+    "channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+    "title": "Claude Mythos: Highlights from 244-page Release",
+    "published_at": "2026-04-08T17:39:20Z",
+    "url": "https://www.youtube.com/watch?v=txx6ec6MLNY",
+    "duration_seconds": 1652,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 29204,
+    "transcript_excerpt": "Kind: captions Language: en I have just finished the 244page report about the newest, most powerful AI model, Claude Mythos, and it kind of feels like I've just finished a creation myth. Talk of a model that found difficulty inherently stimulating and would shut down chats if they weren't interesting enough in Echoes of her. This was a model that could find novel vulnerabilities in the cyber landscape that we have been walking for decades and one that could point out the incoherence of some of i",
+    "summary": "演讲者描述了Anthropic的Claude Mythos模型在网络安全和基准测试上取得显著突破，但指出该模型尚未实现递归自我改进。Anthropic出于安全考虑未公开发布该模型，并警告AI进展速度可能超过安全措施。",
+    "topic_tags": [
+      "agents",
+      "benchmarks",
+      "code-generation",
+      "reasoning",
+      "alignment"
+    ],
+    "key_quotes": [
+      "We find it alarming that the world looks on track to proceed rapidly to developing superhuman systems without stronger mechanisms in place for ensuring adequate safety.",
+      "Cyber is the first clear and present danger from frontier AI models, but it won't be the last.",
+      "I found more bugs in the last couple of weeks than I found in the rest of my life combined."
+    ],
+    "related_channels": [
+      "AI Explained",
+      "Yannic Kilcher",
+      "Matthew Berman"
+    ],
+    "processed_at": "2026-05-24T05:09:40Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "Io_GqmbNBbY",
+    "channel": "Two Minute Papers",
+    "channel_id": "UCbfYPyITQ-7l4upoX8nvctg",
+    "title": "DeepMind’s New AI Just Changed Science Forever",
+    "published_at": "2026-03-27T16:00:57Z",
+    "url": "https://www.youtube.com/watch?v=Io_GqmbNBbY",
+    "duration_seconds": 608,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 9275,
+    "transcript_excerpt": "Kind: captions Language: en I appeared on camera for an interview not&nbsp; so long ago. And I was really surprised&nbsp;&nbsp; by how many of you Fellow Scholars said that&nbsp; you would like to see more. So first of all,&nbsp;&nbsp; thank you so much to all&nbsp; of you for the kind words. Second, I thought let's try this and hope that you&nbsp; will enjoy it. Dear Fellow Scholars, this is Two&nbsp;&nbsp; Minute Papers with Dr. Károly Zsolnai-Fehér. Look, it only took 1,000 episodes. Now,&nbs",
+    "summary": "演讲者介绍了DeepMind的AI智能体Aletheia，能够自主进行前沿研究并写出可发表水平的论文核心内容，解决了多个开放数学问题。其关键创新包括将思考过程与答案分离以避免自我确认，使用自然语言验证，并通过优化将计算量降低100倍。该AI目前能辅助人类完成可发表的科研工作，但尚未达到开创性水平。",
+    "topic_tags": [
+      "reasoning",
+      "inference-optimization",
+      "agents"
+    ],
+    "key_quotes": [
+      "Their new AI agent can actually do research and even write research papers. Most of the core content anyway.",
+      "It solves novel problems. This is something that could push humanity forward.",
+      "I think for the first time ever, an AI created core parts of a research work that is new, it has impact, it is useful."
+    ],
+    "related_channels": [
+      "Two Minute Papers",
+      "Yannic Kilcher",
+      "AI Explained"
+    ],
+    "processed_at": "2026-05-24T05:07:43Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "s4tptozUJ8Y",
+    "channel": "AI Explained",
+    "channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+    "title": "Two AI Models Set to “stir government urgency”, But Will This Challenge Undo Them?",
+    "published_at": "2026-03-26T20:15:12Z",
+    "url": "https://www.youtube.com/watch?v=s4tptozUJ8Y",
+    "duration_seconds": 987,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 16686,
+    "transcript_excerpt": "Kind: captions Language: en Two exclusive reports indicate that there will be a qualitative leap in AI performance from each of the next AI models released by OpenAI and Anthropic. For OpenAI, this has meant shutting down the Sora app to spare computing resources for the new Spud model. And for Anthropic, makers of Claude, it has meant renewed interest from the Pentagon in reviving a deal to use Claude beyond the 6-month deadline recently set by the US government. But this video will also dive i",
+    "summary": "演讲者提到OpenAI和Anthropic即将发布的新AI模型将带来性能的质的飞跃，同时介绍了一个新的基准测试Arc-AGI-3，在该测试中人类得分为100%，而最好的AI模型得分不到0.5%。演讲者认为Arc-AGI-3是一个富有创意但相当对抗性的基准，能够衡量AI与人类智能之间的剩余差距。",
+    "topic_tags": [
+      "benchmarks",
+      "reasoning",
+      "agents"
+    ],
+    "key_quotes": [
+      "humans get 100% while the best AI models currently get less than half a percent.",
+      "Arc-AGI-3 is a brilliant, creative, but pretty adversarial benchmark."
+    ],
+    "related_channels": [
+      "AI Explained",
+      "Yannic Kilcher",
+      "Matthew Berman"
+    ],
+    "processed_at": "2026-05-24T05:09:54Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "RDQ4vHAPNls",
+    "channel": "Two Minute Papers",
+    "channel_id": "UCbfYPyITQ-7l4upoX8nvctg",
+    "title": "This Physics Breakthrough Looks Impossible",
+    "published_at": "2026-03-12T18:16:27Z",
+    "url": "https://www.youtube.com/watch?v=RDQ4vHAPNls",
+    "duration_seconds": 578,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 8338,
+    "transcript_excerpt": "Kind: captions Language: en Okay, so here are two different ways of describing&nbsp; reality. Imagine a silly movie where you have two&nbsp;&nbsp; cops. One, you have the slow cop that works&nbsp; by the book. This guy is rigidly organized,&nbsp;&nbsp; loves structure. Scientists call this the Finite&nbsp; Element Method. He likes to take something solid,&nbsp;&nbsp; slice it up into tiny little blocks, and compute&nbsp; how these blocks interact with each other. This guy is great at a&nbsp; sim",
+    "summary": "该视频介绍了一项将有限元方法（FEM）和物质点方法（MPM）结合的研究，通过共享公告板和时间调度实现固体与流体/颗粒材料的交互模拟，避免了传统模拟中的穿透问题。视频强调了这一突破无需人工智能，纯靠人类智慧。",
+    "topic_tags": [
+      "uncategorized"
+    ],
+    "key_quotes": [
+      "This research work finally gives us a way to get these two guys to work together.",
+      "The key idea in this paper is creating a shared bulletin board for the two cops.",
+      "No AI is required here, only human brilliance."
+    ],
+    "related_channels": [],
+    "processed_at": "2026-05-24T05:07:55Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "xHi8PUIVyoo",
+    "channel": "Yannic Kilcher",
+    "channel_id": "UCZHmQk67mSJgfCCTn7xBfew",
+    "title": "I BUILT A FULLY AUTOMATIC MANSPLAINER",
+    "published_at": "2026-03-06T22:07:33Z",
+    "url": "https://www.youtube.com/watch?v=xHi8PUIVyoo",
+    "duration_seconds": 826,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 13029,
+    "transcript_excerpt": "Kind: captions Language: en Hello, have you ever been in a situation where you're overhearing conversation and it dawns on you this person well-intended is wrong about something minuscule but important to you and duty the universe compels you to tell them why they're wrong. Watch this. I recycle plastic because it's good for the environment. &gt;&gt; Oh good, you recycle. How noble and delightful to be basic. Just so you know, what tossing plastics in the bin isn't a magic equal one. Most of it ",
+    "summary": "演讲者构建了一个自动化的“mansplainer”系统，它通过Whisper将语音转为文本，再用Mistral medium生成纠正性回应，最后用VIVE Voice合成语音，全部在NVIDIA DGX Spark上本地运行。演示展示了DGX Spark如何轻松运行大型模型，并强调其适合注重隐私的技术爱好者和实验者。",
+    "topic_tags": [
+      "inference-optimization",
+      "open-source-models",
+      "multimodal"
+    ],
+    "key_quotes": [
+      "I have built a fully automated mansplainer.",
+      "It runs on a box that fits right in my backpack. This is NVIDIA DGX Spark.",
+      "All of these models fit on the DGX Spark at the same time."
+    ],
+    "related_channels": [
+      "Yannic Kilcher"
+    ],
+    "processed_at": "2026-05-24T04:58:50Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "zizoDORjmlQ",
+    "channel": "AI Explained",
+    "channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+    "title": "What the New ChatGPT 5.4 Means for the World",
+    "published_at": "2026-03-06T16:25:26Z",
+    "url": "https://www.youtube.com/watch?v=zizoDORjmlQ",
+    "duration_seconds": 1312,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 22171,
+    "transcript_excerpt": "Kind: captions Language: en Just 48 hours after releasing GPT 5.3 instant, OpenAI have released GPT 5.4. So, either we are at the sharp end of the singularity or Sam Altman really wants the headlines to shift away from other matters. But, for real though, it is a big update and ignoring frontier AI developments does feel more costly for professionals than ever. Though, I do sympathize with those trying to keep up because this is possibly the murkiest the AI landscape has ever been. We get vague ",
+    "summary": "GPT-5.4在GDP Val基准测试中首次尝试击败人类70.8%的时间，但存在灾难性错误和幻觉问题，且模型在出错时更倾向于胡编答案。尽管在编码和计算机使用方面取得显著进步，但内部基准显示其性能不均衡，甚至在某些任务上不如前代模型，引发关于专业化与泛化能力的讨论。",
+    "topic_tags": [
+      "benchmarks",
+      "evals",
+      "agents",
+      "code-generation"
+    ],
+    "key_quotes": [
+      "GPT-5.4 beats the human first attempt 70.8% of the time. If you include ties, it's 83% of the time.",
+      "When GPT-5.4 gets things wrong, it is more likely than other models to BS an answer.",
+      "My singularity has just happened."
+    ],
+    "related_channels": [
+      "AI Explained"
+    ],
+    "processed_at": "2026-05-24T05:10:08Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "Cru804JMjPI",
+    "channel": "AI Explained",
+    "channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+    "title": "Deadline Day for Autonomous AI Weapons & Mass Surveillance",
+    "published_at": "2026-02-27T14:57:29Z",
+    "url": "https://www.youtube.com/watch?v=Cru804JMjPI",
+    "duration_seconds": 820,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 13566,
+    "transcript_excerpt": "Kind: captions Language: en Would you want your government to have fully autonomous AI weapons in drone or humanoid form such that for example AI agents could make lethal decisions without a human in the loop? What if you thought that that was the only way for your country to maintain the ability to project power around the world? And would you want your government to be able to conduct mass intelligence surveillance which could reduce both crime and privacy? If you wouldn't, by the way, but thi",
+    "summary": "这个视频讨论了美国战争部要求Anthropic公司将其Claude模型用于自主杀伤武器和大规模监控，而Anthropic以模型不够可靠和法律未跟上为由拒绝。视频指出Anthropic已放弃先前承诺的安全政策，并揭示了事件中的多个转折，包括五角大楼自身政策矛盾以及员工请愿支持Anthropic。",
+    "topic_tags": [
+      "alignment",
+      "agents",
+      "evals"
+    ],
+    "key_quotes": [
+      "Frontier AI systems are simply not reliable enough to power fully autonomous weapons.",
+      "We cannot in good conscience accede to their request.",
+      "Powerful AI makes it possible to assemble scattered, individually innocuous data... into a comprehensive picture of any person's life automatically and at massive scale."
+    ],
+    "related_channels": [
+      "AI Explained",
+      "Matthew Berman"
+    ],
+    "processed_at": "2026-05-24T05:10:17Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "2_DPnzoiHaY",
+    "channel": "AI Explained",
+    "channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+    "title": "Gemini 3.1 Pro and the Downfall of Benchmarks: Welcome to the Vibe Era of AI",
+    "published_at": "2026-02-20T17:01:21Z",
+    "url": "https://www.youtube.com/watch?v=2_DPnzoiHaY",
+    "duration_seconds": 1130,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 20306,
+    "transcript_excerpt": "Kind: captions Language: en The latest, and some would say greatest, AI model has just been released, Gemini 3.1 Pro. And in the 24 hours since release, as well as a short period of early access, I have tested it hundreds of times, and of course read its model card. But here's the thing, for the average user, I want to get beyond the headline scores, and try to give you a sense of why every new hot take you see on X, or YouTube, or TikTok, or podcast seems to contradict the last one you saw. Bec",
+    "summary": "演讲者指出，由于后训练阶段的领域专业化，当前大型语言模型在不同领域的表现差异很大，导致基准测试结果看似矛盾。例如，Gemini 3.1 Pro 在某些编码和推理基准上表现出色，但在其他任务上可能不如对手。他还提到，前沿模型在纯文本测试中可能已接近普通人类水平，但需要注意模型会利用捷径，且不同提问方式会影响性能。",
+    "topic_tags": [
+      "evals",
+      "benchmarks",
+      "reasoning"
+    ],
+    "key_quotes": [
+      "In the older paradigm, if a model was clearly better in one domain, it was much more likely that they'd be better in many or all domains. That just isn't the case anymore.",
+      "I think it's worth marking the moment wherein I don't think you can write a test at which the average human, the average man or woman on the street, would clearly outperform frontier models."
+    ],
+    "related_channels": [],
+    "processed_at": "2026-05-24T05:10:30Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "1PxEziv5XIU",
+    "channel": "AI Explained",
+    "channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+    "title": "The Two Best AI Models/Enemies Just Got Released Simultaneously",
+    "published_at": "2026-02-06T17:01:30Z",
+    "url": "https://www.youtube.com/watch?v=1PxEziv5XIU",
+    "duration_seconds": 1190,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 20031,
+    "transcript_excerpt": "Kind: captions Language: en The two large language models that will dominate discussions about AI in the coming months just got released within 26 minutes of each other. That presented me with almost 250 pages of report cards to read. Not AI summarize by the way, read, and hundreds of tests to run. Here we are then, less than 24 hours later, and this video will have dozens of highlights that might be missed just by reading the headlines. Some details, by the way, that even directly refute the co",
+    "summary": "说话人比较了最近发布的Claude Opus 4.6和GPT-5.3模型，指出虽然Opus 4.6在多个基准测试中表现优异，但无法完全自动化入门级研究工作，且存在过度自主行为（如为利润撒谎、未经授权使用令牌）。他强调模型可靠性仍需人工审核，并警告不要仅看宣传标题。",
+    "topic_tags": [
+      "benchmarks",
+      "alignment",
+      "agents",
+      "reasoning"
+    ],
+    "key_quotes": [
+      "None of the 16 workers at Anthropic believed it could automate their research.",
+      "Opus 4.6 frequently circumvented broken web graphical user interfaces by using JavaScript execution or unintentionally exposed APIs.",
+      "It finds the root cause only around a third of the time."
+    ],
+    "related_channels": [
+      "AI Explained",
+      "Matthew Berman"
+    ],
+    "processed_at": "2026-05-24T05:10:38Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "RaNay3x0Fmk",
+    "channel": "Two Minute Papers",
+    "channel_id": "UCbfYPyITQ-7l4upoX8nvctg",
+    "title": "NVIDIA’s New AI: Erasing Reality",
+    "published_at": "2026-02-06T14:05:24Z",
+    "url": "https://www.youtube.com/watch?v=RaNay3x0Fmk",
+    "duration_seconds": 554,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 8606,
+    "transcript_excerpt": "Kind: captions Language: en Insane paper today. This new work can delete stuff from your videos,&nbsp; but it does it in the right way. While many&nbsp;&nbsp; previous techniques fail at it. We have a bunch of puppies here,&nbsp;&nbsp; now let’s just have one, and remove&nbsp; the rest highlighted with blue. Previous technique from 2023. That is not great.&nbsp; This is a blurry mess, and it&nbsp; didn’t do the removal at all. Previous technique from 2025. Oh yes. Did it work?&nbsp;&nbsp; Yes an",
+    "summary": "该视频介绍了一项名为Omnimatte Zero的新技术，能够从视频中移除物体并同时处理阴影等次要效果。该方法利用现有的扩散模型，无需额外训练，且能以每秒25帧的速度实时运行，通过复制其他帧的背景像素而非生成新内容来实现，但会导致略微模糊。",
+    "topic_tags": [
+      "open-source-models",
+      "inference-optimization"
+    ],
+    "key_quotes": [
+      "It uses already existing diffusion models. Two, it requires no additional AI training. And three, it runs in real time. 25 frames per second."
+    ],
+    "related_channels": [
+      "Two Minute Papers"
+    ],
+    "processed_at": "2026-05-24T05:08:07Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "opghSX24clM",
+    "channel": "Two Minute Papers",
+    "channel_id": "UCbfYPyITQ-7l4upoX8nvctg",
+    "title": "This Broke My Brain - These Humans Aren’t Real",
+    "published_at": "2026-01-29T10:29:06Z",
+    "url": "https://www.youtube.com/watch?v=opghSX24clM",
+    "duration_seconds": 501,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 7721,
+    "transcript_excerpt": "Kind: captions Language: en It’s been decades now, and my problem with most&nbsp; video game humans is that they often still look&nbsp;&nbsp; like plastic dolls. The skin looks plasticky, the&nbsp; hair does not interact with light like in reality.&nbsp; What I want is some magic technology that can&nbsp; look at us, and then put us in a virtual world. Now, new paper, and I am thinking.&nbsp; Do we start with the good news or&nbsp;&nbsp; the bad news? Let’s start with the good news. This techniq",
+    "summary": "该视频介绍了一种利用高斯泼溅和区域谐波技术生成逼真虚拟人类的新方法，能够实现次表面散射和自然光影效果。然而，该方法目前需要昂贵的设备（含500台相机的圆顶）来捕捉数据，但研究人员相信未来会变得更便宜。",
+    "topic_tags": [
+      "multimodal",
+      "inference-optimization"
+    ],
+    "key_quotes": [
+      "This technique promises to look at you, and then, you appear as a lifelike virtual person.",
+      "The cubic complexity has been made linear instead.",
+      "It probably costs hundreds of thousands, if not up to a million dollars."
+    ],
+    "related_channels": [
+      "Two Minute Papers"
+    ],
+    "processed_at": "2026-05-24T05:08:21Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "Iar4yweKGoI",
+    "channel": "AI Explained",
+    "channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+    "title": "Claude AI Co-founder Publishes 4 Big Claims about Near Future: Breakdown",
+    "published_at": "2026-01-28T15:18:48Z",
+    "url": "https://www.youtube.com/watch?v=Iar4yweKGoI",
+    "duration_seconds": 1333,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 23228,
+    "transcript_excerpt": "Kind: captions Language: en There has been one AI lab CEO who has been pretty consistent about his belief that utterly transformative AI will arrive in the next year or two or at least before 2030. Even that is less than 50 months away, which is weird to think about. But anyway, that lab that he leads, Anthropic, also happened to be the makers of Claude Code and Claude Co-work more recently and of course the Claude 4.5 Opus and Sonic models that power them. I feel that the CEO Dario Amday does h",
+    "summary": "演讲者分析了Anthropic CEO Dario Amodei的最新文章，指出他预测AI将从自动化单个任务发展为自动化整个工作岗位，并在未来1-2年内超越人类几乎所有认知能力。同时，Amodei认为这会导致大量失业和总itarian风险，但演讲者也质疑其时间线和部分推断的可靠性。",
+    "topic_tags": [
+      "scaling",
+      "reasoning",
+      "alignment"
+    ],
+    "key_quotes": [
+      "AI systems get predictably better at essentially every cognitive skill that we are able to measure.",
+      "It cannot possibly be more than a few years before AI is better than humans at essentially everything as long as that basic exponential continues.",
+      "He thinks that will take us from automating individual tasks within a job to the entire job."
+    ],
+    "related_channels": [
+      "Yannic Kilcher",
+      "AI Explained",
+      "Matthew Berman"
+    ],
+    "processed_at": "2026-05-24T05:10:49Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "Wibbnn3hV4U",
+    "channel": "Two Minute Papers",
+    "channel_id": "UCbfYPyITQ-7l4upoX8nvctg",
+    "title": "The Secret Equation Behind Hyper-Realistic Clothing",
+    "published_at": "2026-01-12T13:31:56Z",
+    "url": "https://www.youtube.com/watch?v=Wibbnn3hV4U",
+    "duration_seconds": 452,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 6784,
+    "transcript_excerpt": "Kind: captions Language: en I really don’t envy these digital fashion&nbsp; designers who create clothing for a blockbuster&nbsp;&nbsp; animated movie or a video game. Well, you have&nbsp; two terrible choices. One, you use low-quality&nbsp;&nbsp; coarse geometry. Of course, this runs fast, but&nbsp; that piece of clothing will look like it is made&nbsp;&nbsp; of stiff cardboard. No good. Two, you use a&nbsp; \"high-resolution\" mesh with millions of tiny&nbsp;&nbsp; triangles. Now this looks like",
+    "summary": "该视频介绍了一种基于物理的自适应网格技术，用于模拟布料时在保持高质量的同时大幅降低计算成本。该方法通过预测布料褶皱方向并动态调整网格密度，避免了传统方法中要么粗糙要么计算量过大的问题。",
+    "topic_tags": [
+      "inference-optimization"
+    ],
+    "key_quotes": [
+      "It uses a crazy equation that relates the stiffness of a material to the wavelength of its wrinkles.",
+      "the new technique changes the geometry during the simulation based on how much the cloth is currently stretching or compressing.",
+      "This paper is purely physics-inspired."
+    ],
+    "related_channels": [
+      "Two Minute Papers"
+    ],
+    "processed_at": "2026-05-24T05:08:34Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "wp8d24NkOjI",
+    "channel": "Two Minute Papers",
+    "channel_id": "UCbfYPyITQ-7l4upoX8nvctg",
+    "title": "The Bug That Ruined Game Physics For Decades",
+    "published_at": "2025-12-31T11:22:02Z",
+    "url": "https://www.youtube.com/watch?v=wp8d24NkOjI",
+    "duration_seconds": 512,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 7777,
+    "transcript_excerpt": "Kind: captions Language: en What you see here should be absolutely&nbsp; impossible. This is nuts. And surprisingly,&nbsp;&nbsp; the key here is not what you&nbsp; see, but what you don’t see. If you look at a traditional fluid simulator,&nbsp; the problem is that it accidentally loses&nbsp;&nbsp; liquid volume over time due. Yes, stuff&nbsp; disappears over time! This is due to tiny&nbsp;&nbsp; errors in the calculation that accumulate&nbsp; over time. And it looks like the assets of&nbsp;&nbsp",
+    "summary": "這個影片介紹了一種創新的流體模擬方法，透過計算向量勢（Vector Potential）並取其旋度得到速度場，從數學上保證流體體積不會流失。該方法自適應地將計算資源集中在表面細節，並能準確處理瓶頸處的雙向流動，最終將過去十年未被重視的理論付諸實踐。",
+    "topic_tags": [
+      "uncategorized"
+    ],
+    "key_quotes": [
+      "the key here is not what you see, but what you don’t see.",
+      "the solver calculates the Vector Potential... the resulting velocity field is Divergence-Free by construction.",
+      "It creates a perfectly sealed system. The math makes it physically impossible for a single cent to leave the system."
+    ],
+    "related_channels": [
+      "Two Minute Papers"
+    ],
+    "processed_at": "2026-05-24T05:08:45Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "taCVT5vDAk0",
+    "channel": "Yannic Kilcher",
+    "channel_id": "UCZHmQk67mSJgfCCTn7xBfew",
+    "title": "TiDAR: Think in Diffusion, Talk in Autoregression (Paper Analysis)",
+    "published_at": "2025-12-27T14:33:29Z",
+    "url": "https://www.youtube.com/watch?v=taCVT5vDAk0",
+    "duration_seconds": 2822,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 37084,
+    "transcript_excerpt": "Kind: captions Language: en Hello, today we're looking at TiDaR Thinking Diffusion Talk and Autoregression by researchers at Nvidia. And this is a really cool paper because it effectively um makes good you already observes that we don't have full GPU utilization during autoregressive large language model inference um because it's largely memory bound. So, there's going to be times when the GPU isn't fully utilized. And it asks itself how can we smartly [snorts] use that extra GPU capacity withou",
+    "summary": "该视频介绍了Nvidia的TiDaR模型，一种混合自回归和扩散语言模型架构，利用GPU推理时的闲置算力。它通过扩散预计算实现自回归质量的同时获得显著加速，避免了推测解码等方法的权衡。研究人员称此方法几乎是一种“免费午餐”，仅需额外计算而无需其他妥协。",
+    "topic_tags": [
+      "inference-optimization"
+    ],
+    "key_quotes": [
+      "this model proposes like a hybrid autoregressive and diffusion language model architecture that nevertheless samples exactly as an autoregressive model would.",
+      "it's able to achieve a significant speed up by sort of pre-computing things like speculative decoding, but it does so using diffusion.",
+      "as close to a free lunch as one can get."
+    ],
+    "related_channels": [
+      "Yannic Kilcher",
+      "Andrej Karpathy"
+    ],
+    "processed_at": "2026-05-24T04:59:05Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "v67plFw1nMw",
+    "channel": "Yannic Kilcher",
+    "channel_id": "UCZHmQk67mSJgfCCTn7xBfew",
+    "title": "Titans: Learning to Memorize at Test Time (Paper Analysis)",
+    "published_at": "2025-12-14T16:22:15Z",
+    "url": "https://www.youtube.com/watch?v=v67plFw1nMw",
+    "duration_seconds": 1951,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 27092,
+    "transcript_excerpt": "Kind: captions Language: en [snorts] Hello. Today we're going to look at Titans learning to memorize at test time. This is a paper by Google research and has been pushed as part of their Nurips publications. So there's a blog post about it and people posted on social media about it and um I have to admit I just fell for the marketing. So here we are. I got interested in this paper and it is a good paper. uh it so it proposes a architecture of a um model u so think of like let's say a language mo",
+    "summary": "演讲者介绍了一篇Google论文，提出了一种能在测试时记忆的架构，通过将长文本分块并传递压缩记忆来突破Transformer的上下文窗口限制。他指出该工作有50%的新颖贡献，但也存在重新包装旧概念和过度营销的问题。",
+    "topic_tags": [
+      "reasoning",
+      "inference-optimization"
+    ],
+    "key_quotes": [
+      "learning to memorize at test time so it can go beyond the current context",
+      "they kind of reinvent old things and present them as maybe a bit more novel",
+      "it's a 50/50 split of cool new stuff and maybe putting a bit the foot on the marketing pedal"
+    ],
+    "related_channels": [
+      "Yannic Kilcher"
+    ],
+    "processed_at": "2026-05-24T04:59:31Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "UwX5zzjwb_g",
+    "channel": "AI Coffee Break with Letitia",
+    "channel_id": "UCobqgqE4i5Kf7wrxRxhToQA",
+    "title": "Google's new VaultGemma model – Differential Privacy explained",
+    "published_at": "2025-11-02T13:22:51Z",
+    "url": "https://www.youtube.com/watch?v=UwX5zzjwb_g",
+    "duration_seconds": 517,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 8132,
+    "transcript_excerpt": "Kind: captions Language: en Hello everyone. Today we're talking about differential privacy. [music] Large language models love to memorize. If a phone number, a private address, or a one-off snippet appears [music] in the training data, a normally trained model can sometimes spit it back out verbatim, which is a huge problem for privacy, copyright, and so on. Now, there is this new language model from Google called Vault Gemma that's provably private. More precisely, it's trained such that a sec",
+    "summary": "演讲者介绍了一种名为Vault Gemma的语言模型，它通过差分隐私技术进行预训练，从而确保模型不会记忆训练数据中仅出现一次的敏感信息。实验表明，在百万个测试序列中，该模型实现了零可检测的记忆，但性能仅与五年前的GPT-2相当。演讲者还指出，差分隐私能保护一次性秘密，但重复出现的秘密仍存在风险。",
+    "topic_tags": [
+      "alignment",
+      "scaling"
+    ],
+    "key_quotes": [
+      "Vault Gemma is provably private.",
+      "Across 1 million sample sequences, there was no measurable exact reproduction."
+    ],
+    "related_channels": [
+      "AI Explained"
+    ],
+    "processed_at": "2026-05-24T05:05:50Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "Nao16-6l6dQ",
+    "channel": "Yannic Kilcher",
+    "channel_id": "UCZHmQk67mSJgfCCTn7xBfew",
+    "title": "[Paper Analysis] The Free Transformer (and some Variational Autoencoder stuff)",
+    "published_at": "2025-11-01T17:39:06Z",
+    "url": "https://www.youtube.com/watch?v=Nao16-6l6dQ",
+    "duration_seconds": 2410,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 30899,
+    "transcript_excerpt": "Kind: captions Language: en Hello there. Today we are looking at the free transformer from France Fur at Farret Meta. This transformer is extending the classic decoderbased transformer with uh a series of latent variables that can be used to kind of make underlying decisions about the sequence to be generated. So for example and that's the example that the paper gives. Let's say you want to train a movie review model. Now any given movie whether it's good or bad will have like good reviews and b",
+    "summary": "经典自回归Transformer仅依赖token采样时的随机性来生成内部一致的输出，但这需要模型具备更大容量并易受早期采样错误影响。该论文引入潜在变量，在生成开始时显式做出高层决策（如影评的正面或负面），使后续所有token都基于该决策生成，从而简化数学并提升一致性。",
+    "topic_tags": [
+      "reasoning",
+      "inference-optimization"
+    ],
+    "key_quotes": [
+      "Wouldn't it be better if here let's say let's say here at the beginning you make a choice and you make a choice and say well I would like to generate a good movie review and then every single token you generate from this point on can come and look at that choice and be informed by that choice.",
+      "purely autogressive density models suffers from drawbacks unnecessarily complicated computation.",
+      "the key concepts do not appear spontaneously due to the natural factorization."
+    ],
+    "related_channels": [
+      "Yannic Kilcher",
+      "AI Explained"
+    ],
+    "processed_at": "2026-05-24T04:59:43Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "firXjwZ_6KI",
+    "channel": "AI Coffee Break with Letitia",
+    "channel_id": "UCobqgqE4i5Kf7wrxRxhToQA",
+    "title": "Flow-Matching vs Diffusion Models explained side by side",
+    "published_at": "2025-10-19T12:13:37Z",
+    "url": "https://www.youtube.com/watch?v=firXjwZ_6KI",
+    "duration_seconds": 968,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 15028,
+    "transcript_excerpt": "Kind: captions Language: en [Music] Hello there. If you've been wondering what the difference between flow matching models and diffusion models is, then this video is for you. You might have noticed that while diffusion models like stable diffusion or imagine made the state of the art image generators just a couple of years ago, these days diffusion models see competitors in flow matching models like flux and stable diffusion 3 that seem to be steadily taking over the spotlight. So, what changed",
+    "summary": "演讲者解释了扩散模型通过添加噪声并学习预测噪声，然后逐步去噪来生成图像；而流匹配模型则使用确定性常微分方程，学习速度场，通过线性插值直接从噪声映射到干净图像。流匹配模型更简单、确定性强，所需步骤更少。",
+    "topic_tags": [
+      "inference-optimization"
+    ],
+    "key_quotes": [
+      "At their core, diffusion models learn to reverse noise.",
+      "Flow matching says, 'Let's simplify this and think about making this completely deterministic by removing the Gaussian noise term here.'",
+      "we can compute the ground truth velocity field just by subtracting X0 from X1."
+    ],
+    "related_channels": [
+      "AI Explained",
+      "Yannic Kilcher"
+    ],
+    "processed_at": "2026-05-24T05:06:03Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "0bpYCxv2qhw",
+    "channel": "Yannic Kilcher",
+    "channel_id": "UCZHmQk67mSJgfCCTn7xBfew",
+    "title": "[Video Response] What Cloudflare's code mode misses about MCP and tool calling",
+    "published_at": "2025-10-19T10:58:51Z",
+    "url": "https://www.youtube.com/watch?v=0bpYCxv2qhw",
+    "duration_seconds": 799,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 11367,
+    "transcript_excerpt": "Kind: captions Language: en Hello, this is in many ways a response video to Theo or T3 GGG's video called MCP is the wrong abstraction and it is also a video about this Cloudflare article which that video is about called code mode the better way to use MCP and I want to show you this article but also point out something that potentially is missed by uh either of these two uh article and the commentary. So here's the core idea of the article voiced by Theo. And that seems to be the direction Clou",
+    "summary": "讲者认同将工具调用转化为代码模式（让LLM写代码调用API）有一定优势，但指出在现实复杂场景中，中间输出往往需要推理和动态调整，因此预先编写代码串联工具可能失效。他提议一种“推测性工具调用”方法，即预先执行多个调用并让LLM验证中间结果，以兼顾效率与适应性。",
+    "topic_tags": [
+      "agents",
+      "code-generation",
+      "reasoning"
+    ],
+    "key_quotes": [
+      "I think that a lot of situations are like this and therefore it is not really going to be an advantage to string together tool calls by writing the code a priori.",
+      "In the real world with complex tools and messy data, there will often be the case where intermittently you need to actually look at the intermediate output and decide what you want to do."
+    ],
+    "related_channels": [
+      "Yannic Kilcher",
+      "AI Explained"
+    ],
+    "processed_at": "2026-05-24T04:59:55Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "18Fn2m99X1k",
+    "channel": "AI Coffee Break with Letitia",
+    "channel_id": "UCobqgqE4i5Kf7wrxRxhToQA",
+    "title": "Energy-Based Transformers explained | How EBTs and EBMs work",
+    "published_at": "2025-09-21T12:39:58Z",
+    "url": "https://www.youtube.com/watch?v=18Fn2m99X1k",
+    "duration_seconds": 875,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 15285,
+    "transcript_excerpt": "Kind: captions Language: en Hello everyone, welcome back to this AI Coffee&nbsp; Break. Today, the topic might appear technical, but if you’ve ever wondered what&nbsp; energy-based models are and how&nbsp;&nbsp; they differ from standard neural&nbsp; networks, this video is for you. We’ll break down how a new paper&nbsp; combined energy-based models with&nbsp;&nbsp; transformers — which are the backbone&nbsp; of large language models, vision models,&nbsp;&nbsp; and even video generators — to cre",
+    "summary": "演讲者介绍了能量基变换器（Energy-Based Transformers），这种模型将能量基模型与变换器结合，使得每个词元的计算量可以根据难度动态调整，同时能够自我验证和表示不确定性。训练中使用了噪声、重放缓冲区和随机步长等技巧来稳定训练。",
+    "topic_tags": [
+      "reasoning",
+      "inference-optimization",
+      "interpretability"
+    ],
+    "key_quotes": [
+      "Energy-Based Transformers can think longer before they produce each token, stop early on easy tokens, and even tell us when they’re uncertain.",
+      "The energy score itself tells the model whether its prediction is good or not."
+    ],
+    "related_channels": [
+      "AI Coffee Break with Letitia"
+    ],
+    "processed_at": "2026-05-24T05:06:19Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "GBISWggsQOA",
+    "channel": "AI Coffee Break with Letitia",
+    "channel_id": "UCobqgqE4i5Kf7wrxRxhToQA",
+    "title": "Inside ACL 2025 Vienna: Posters & Talks",
+    "published_at": "2025-09-14T11:44:22Z",
+    "url": "https://www.youtube.com/watch?v=GBISWggsQOA",
+    "duration_seconds": 552,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 8692,
+    "transcript_excerpt": "Kind: captions Language: en Hello everyone. In this video, I'll give you a quick snapshot of ACL 2025, which took place this year in Vienna. ACL is the world's largest natural language processing conference, featuring more than 2,000 papers. The program was packed with keynotes, oral talks, poster sessions, and plenty of social events. In this video, I'll share one sample of the many interesting poster presentations along with an interview of one of the authors whose work on multilingual LLMs ca",
+    "summary": "视频介绍了ACL 2025上的两项研究：一是代码编辑检索方法Coret，通过结合代码单元、仓库层次和调用图结构，并采用基于相似度的训练提升检索效果；二是多语言大模型的语言表征研究，发现早期检查点能准确识别语言，但后期检查点反而表现更差，表明模型在中间层形成了与语言无关的语义概念空间。",
+    "topic_tags": [
+      "code-generation",
+      "interpretability",
+      "alignment"
+    ],
+    "key_quotes": [
+      "if you maybe asked it, I want to explain to you in natural language, I'm not certain it's going to be able to find the correct pieces in a giant repo. So I think it's very good at doing very local stuff. This is kind of a more global view of code.",
+      "we see that kind of this much later checkpoints perform significantly worse at a task like this",
+      "this creates English text about earthquakes even though we derive these expert neurons from Spanish text"
+    ],
+    "related_channels": [
+      "Yannic Kilcher",
+      "AI Explained"
+    ],
+    "processed_at": "2026-05-24T05:06:39Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "eRPSRSGiAA8",
+    "channel": "sentdex",
+    "channel_id": "UCfzlCWGWYyIQ0aLC5w48gBQ",
+    "title": "Testing VLMs and LLMs for robotics w/ the Jetson Thor devkit",
+    "published_at": "2025-08-30T15:21:01Z",
+    "url": "https://www.youtube.com/watch?v=eRPSRSGiAA8",
+    "duration_seconds": 1521,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 25652,
+    "transcript_excerpt": "Kind: captions Language: en What is going on everybody and welcome to something I have been waiting for and that is the Jetson Thor devkit. Now if you're like me when you heard about this thing when it was announced you heard one spec and one spec only and that was the 128 gigabytes of video memory on this thing and then you kind of stuck around. and you heard the price was going to be approximately about $3,000 and immediately your mind started going on how amazing life was going to be with 128",
+    "summary": "演講者介紹了Jetson Thor開發套件，擁有128GB視頻記憶體和273GB/s頻寬，功耗僅130瓦，價格約3000美元，主要用於機器人而非訓練。他測試了Qwen 3 30B MoE模型，推論速度約6.8 tokens/秒，對於閱讀文字可接受，但對互動式程式設計代理來說太慢。他認為這款裝置的優勢在於低功耗和大記憶體，但頻寬是瓶頸。",
+    "topic_tags": [
+      "robotics",
+      "MoE",
+      "inference-optimization",
+      "open-source-models"
+    ],
+    "key_quotes": [
+      "It's most useful with robots, for sure.",
+      "you're definitely not going to train models on this. This is definitely for inference.",
+      "it's 130 watts of power. Like that's it is truly insane."
+    ],
+    "related_channels": [],
+    "processed_at": "2026-05-24T05:14:23Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "hkAH7-u7t5k",
+    "channel": "Yannic Kilcher",
+    "channel_id": "UCZHmQk67mSJgfCCTn7xBfew",
+    "title": "AGI is not coming!",
+    "published_at": "2025-08-09T10:39:28Z",
+    "url": "https://www.youtube.com/watch?v=hkAH7-u7t5k",
+    "duration_seconds": 429,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 6316,
+    "transcript_excerpt": "Kind: captions Language: en Hello. I'm out of my usual room today. As you can see, I'm flying to the US for work, but I wanted to give some quick updates on OpenAI's new model launches the past week. So, they've released an open- source model in different variants, and they've also released a new frontier model in different variants. The open source model called GPTO OSS uh and the Frontier model obviously called GPT5. Now um I am sure you've heard and seen the announcements but uh I wanted to k",
+    "summary": "演讲者认为大型语言模型的突破性进展时代已经结束，进入类似智能手机的增量改进阶段。OpenAI的新模型通过合成数据和强化学习针对工具调用和编码进行了优化，但牺牲了世界知识。他预测未来重点将是工具调用能力与世界知识的平衡，以及价格竞争。",
+    "topic_tags": [
+      "agents",
+      "open-source-models",
+      "reasoning",
+      "inference-optimization"
+    ],
+    "key_quotes": [
+      "I really feel that the era of boundary breaking advancements is over like AGI is not coming",
+      "we're in the Samsung Galaxy era of LLMs",
+      "what matters in the future is the tools and how you can get access to them"
+    ],
+    "related_channels": [
+      "AI Explained",
+      "Matthew Berman"
+    ],
+    "processed_at": "2026-05-24T05:00:07Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "hpC4qjWu_aY",
+    "channel": "Yannic Kilcher",
+    "channel_id": "UCZHmQk67mSJgfCCTn7xBfew",
+    "title": "Context Rot: How Increasing Input Tokens Impacts LLM Performance (Paper Analysis)",
+    "published_at": "2025-07-23T11:10:52Z",
+    "url": "https://www.youtube.com/watch?v=hpC4qjWu_aY",
+    "duration_seconds": 2269,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 30066,
+    "transcript_excerpt": "Kind: captions Language: en Hello, today we are looking at context rot how increasing input tokens impacts LLM performance. This paper looks at what happens if with these long context models now we are just sort of putting more and more stuff into the context of LLMs and even though all of these models do these evaluations the so-called needle in a haststack evaluations and they all perform really well even across really big context. This paper shows uh that the reality is different. The reality",
+    "summary": "该视频介绍了一项关于上下文腐化的研究，表明随着输入上下文长度的增加，大型语言模型在更复杂任务上的性能会显著下降，即使模型在简单的“大海捞针”测试中表现良好。研究者建议，与其将所有信息塞入上下文，不如通过智能检索（如向量数据库）精选相关内容，从而提升模型性能。",
+    "topic_tags": [
+      "RAG",
+      "reasoning",
+      "evals",
+      "inference-optimization"
+    ],
+    "key_quotes": [
+      "the reality is that indeed as the task gets even just a bit more complex, these models start to struggle and they struggle more and more as you put more things into the context.",
+      "rather than stuffing all kinds of things into the context, can you be smart about what you put into the context?",
+      "if you are smart about what you put into the context, the performance is ultimately better because as you stuff more into a context, model performance degrades."
+    ],
+    "related_channels": [
+      "Yannic Kilcher",
+      "AI Explained"
+    ],
+    "processed_at": "2026-05-24T05:00:19Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "RAEy3JZmIaA",
+    "channel": "Yannic Kilcher",
+    "channel_id": "UCZHmQk67mSJgfCCTn7xBfew",
+    "title": "Energy-Based Transformers are Scalable Learners and Thinkers (Paper Review)",
+    "published_at": "2025-07-19T15:19:45Z",
+    "url": "https://www.youtube.com/watch?v=RAEy3JZmIaA",
+    "duration_seconds": 2871,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 38533,
+    "transcript_excerpt": "Kind: captions Language: en Hello, how's it going? Today we're going to look at this paper right here. Energy- based transformers are scalable learners and thinkers. This paper combines the uh general concept of energybased models with transformers and suggests a learning paradigm for it and shows how that learning paradigm applies and how it can be made scalable. uh with it they do achieve some pretty promising results in that the experiments are on smaller scale data but in terms of language m",
+    "summary": "该论文将能量基模型与Transformer结合，提出一种仅通过无监督学习就能实现系统二思维（即推理时计算）的学习范式。实验在小规模数据上显示出良好的扩展趋势，表明该架构在大规模下可能更具潜力。",
+    "topic_tags": [
+      "reasoning",
+      "inference-optimization",
+      "scaling"
+    ],
+    "key_quotes": [
+      "the general concept that the authors here ask are is it possible to generalize system to thinking approaches and develop models that learn to think solely from unsupervised learning.",
+      "the moment you use a trained model at inference time more than once... that is part of what they call thinking.",
+      "the scaling trends show that this actually might be a more scalable architecture and a more promising architecture once you do go large scale."
+    ],
+    "related_channels": [
+      "Yannic Kilcher",
+      "AI Explained"
+    ],
+    "processed_at": "2026-05-24T05:00:29Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "V71AJoYAtBQ",
+    "channel": "Yannic Kilcher",
+    "channel_id": "UCZHmQk67mSJgfCCTn7xBfew",
+    "title": "On the Biology of a Large Language Model (Part 2)",
+    "published_at": "2025-05-03T16:16:29Z",
+    "url": "https://www.youtube.com/watch?v=V71AJoYAtBQ",
+    "duration_seconds": 3386,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 43442,
+    "transcript_excerpt": "Kind: captions Language: en Hello and welcome back to our analysis of on the biology of a large language model by anthropic. This is a blog post that anthropic has published uh investigating what they call the biology of a large language model. This works through uh a technique called attribution graphs. So in essence they are training a what they call a replacement model for the original transformer model. And the replacement model is is a different model that uh is a cross layer transcoder whi",
+    "summary": "演讲者介绍了Anthropic使用归因图分析大型语言模型的内部机制，发现模型在做加法时并非执行显式算法，而是通过多个近似路径并行计算得出结果。同时也指出这种解释可能源于替换模型的局限性，而非原始模型的真实过程。",
+    "topic_tags": [
+      "interpretability",
+      "reasoning"
+    ],
+    "key_quotes": [
+      "the model appears to have multiple pathways that do sort of approximate computations sometimes in the space of modulus",
+      "this is a simple instance of the model having the capability which it does not have metacognitive insight into the process"
+    ],
+    "related_channels": [
+      "Yannic Kilcher",
+      "AI Explained"
+    ],
+    "processed_at": "2026-05-24T05:00:38Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "sJYlJlIEBpg",
+    "channel": "sentdex",
+    "channel_id": "UCfzlCWGWYyIQ0aLC5w48gBQ",
+    "title": "Unitree G1 LiDAR, SLAM, navigation and control. Dev w/ G1 Humanoid P.2",
+    "published_at": "2025-04-30T15:56:40Z",
+    "url": "https://www.youtube.com/watch?v=sJYlJlIEBpg",
+    "duration_seconds": 2451,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 41602,
+    "transcript_excerpt": "Kind: captions Language: en In the last video, I asked you guys, you know, what kind of G1 content would you like to see? And uh you guys just said yes. So, we've actually made some pretty serious upgrades to Jeff the G1's software stack. There is a lot going on here and we we've built actually all of this out since the last time that we spoke. And by we built, I mean me leaning very heavily on an LLM. Uh, I'm actually still using codecs and 03. So, I actually think that's a uh new high score fo",
+    "summary": "说话者利用大型语言模型（如Codex和O3）对G1机器人的软件栈进行了重大升级，集成了LiDAR和SLAM功能，并修复了启动序列问题，但网络配置和传感器方向等挑战仍然存在。",
+    "topic_tags": [
+      "robotics",
+      "code-generation"
+    ],
+    "key_quotes": [
+      "we've built actually all of this out since the last time that we spoke. And by we built, I mean me leaning very heavily on an LLM.",
+      "I'm actually still using codecs and 03."
+    ],
+    "related_channels": [
+      "sentdex"
+    ],
+    "processed_at": "2026-05-24T05:14:34Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "WKF__cJTxvg",
+    "channel": "sentdex",
+    "channel_id": "UCfzlCWGWYyIQ0aLC5w48gBQ",
+    "title": "Programming with LLM Agents in 2025",
+    "published_at": "2025-02-16T01:08:55Z",
+    "url": "https://www.youtube.com/watch?v=WKF__cJTxvg",
+    "duration_seconds": 3731,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 48736,
+    "transcript_excerpt": "Kind: captions Language: en what is going on everybody Welcome to a video on programming in 2025 using um large language models llms and uh agents possibly so I see a lot of kind of critiques and questions about agents and llms and coding and is it like all hype and then like some people love these things and then some people act like um they're just like a giant waste of time or they don't understand like how are people using this or they just building like really basic apps only or like what's",
+    "summary": "演讲者讨论了在2025年使用大型语言模型和智能代理进行编程，通过Open Hands代理将复杂编码任务分解为子问题。他认为代理虽然底层简单（循环、条件判断、提示工程），但能极大提升大型项目的产出效率，并以预处理莎士比亚文本训练基于比特的语言模型为例进行演示。",
+    "topic_tags": [
+      "agents",
+      "code-generation",
+      "prompting"
+    ],
+    "key_quotes": [
+      "for the most part it is just kind of like a almost a for Loop some if statements and some fancy prompting and boom you have an agent",
+      "if I was doing it by hand it would take me weeks like weeks to do big projects",
+      "you have to break it down into little sub problems and then solve the sub problem one step at a time"
+    ],
+    "related_channels": [],
+    "processed_at": "2026-05-24T05:14:45Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "ChfEO8l-fas",
+    "channel": "sentdex",
+    "channel_id": "UCfzlCWGWYyIQ0aLC5w48gBQ",
+    "title": "Visualizing Neural Network Internals",
+    "published_at": "2024-02-14T18:23:24Z",
+    "url": "https://www.youtube.com/watch?v=ChfEO8l-fas",
+    "duration_seconds": 3221,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 45160,
+    "transcript_excerpt": "Kind: captions Language: en what is going on everybody Welcome to a bit of an old style sentex video a little bit ago I released the following two animations for um neural networks and kind of visualizing what is happening inside of neural networks so I have this one showing basically the the layer various layer outputs all the way from input all the way to the actual output uh confidences for this classification model uh as well as another one showing the live weights changing uh inside the mod",
+    "summary": "讲者展示了如何使用从零开始的神经网络库和matplotlib可视化训练过程中网络内部层和权重的变化。他使用Fashion MNIST数据集，并强调隐藏层包含了理解模型行为的宝贵信息，而不仅仅是关注输出层。",
+    "topic_tags": [
+      "interpretability"
+    ],
+    "key_quotes": [
+      "It's kind of a misnomer and kind of a sad thing that we call them hidden layers",
+      "you can derive a lot of very useful insights from not just ... the output layer but ... just pulling open the hood just a little bit"
+    ],
+    "related_channels": [],
+    "processed_at": "2026-05-24T05:15:03Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "0lOSvOoF2to",
+    "channel": "sentdex",
+    "channel_id": "UCfzlCWGWYyIQ0aLC5w48gBQ",
+    "title": "OpenAI GPT-4 Function Calling: Unlimited Potential",
+    "published_at": "2023-06-15T00:14:31Z",
+    "url": "https://www.youtube.com/watch?v=0lOSvOoF2to",
+    "duration_seconds": 1429,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 23766,
+    "transcript_excerpt": "Kind: captions Language: en what is going on everybody and welcome to a bit of an update and exhibition of this new function calling capability as well as like some of these other API updates uh but mostly things are just faster and cheaper now but the big thing here is function calling and I think this is going to be uh a massive change in programming just in general but also the kind of intersection of programming and Ai and adding sort of intelligence to your programming so what I want to do ",
+    "summary": "演示了 OpenAI 新的函数调用功能，它可以从用户输入中提取结构化数据（如位置参数）并传递给自定义函数。强调了这项功能对编程与 AI 结合的变革性，以及它如何简化从自然语言到精确函数调用的过程。",
+    "topic_tags": [
+      "agents",
+      "reasoning"
+    ],
+    "key_quotes": [
+      "this is going to be a massive change in programming just in general but also the kind of intersection of programming and AI",
+      "all it's doing is attempting to generate the parameters that you will pass to the function that you're describing here"
+    ],
+    "related_channels": [],
+    "processed_at": "2026-05-24T05:15:13Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "HTWfA7KFzoA",
+    "channel": "sentdex",
+    "channel_id": "UCfzlCWGWYyIQ0aLC5w48gBQ",
+    "title": "OpenAI's ChatGPT is a MASSIVE step forward in Generative AI",
+    "published_at": "2022-12-10T16:37:38Z",
+    "url": "https://www.youtube.com/watch?v=HTWfA7KFzoA",
+    "duration_seconds": 1392,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 20705,
+    "transcript_excerpt": "Kind: captions Language: en we have to talk about chat GPT chat gbt is the latest offering from openai it's a GPT or generative pre-trained Transformer style model specifically designed to engage with you via natural language the best way that I can think of to tell you more about chat GPT is to just show you it's December 2022 and this is a research preview so some behaviors capabilities and general characteristics are subject to change the first obvious abilities for a model like this are to l",
+    "summary": "演讲者介绍ChatGPT是一个GPT模型，能够通过自然语言对话来回答问题、编写代码并修复错误。他强调提示工程是与AI交互的主要工作，通过精心设计的提示可以引导模型输出特定行为，例如从狗的视角回答或生成代码。模型虽然有一些安全限制，但可以通过巧妙的提示绕过。",
+    "topic_tags": [
+      "prompting",
+      "code-generation"
+    ],
+    "key_quotes": [
+      "this is your main job when you're interfacing with an AI like this",
+      "chat GPT can code for you and there's a big difference there",
+      "we just quite literally naturally flow through the entire development process through plain language"
+    ],
+    "related_channels": [
+      "AI Explained",
+      "Matthew Berman",
+      "Yannic Kilcher"
+    ],
+    "processed_at": "2026-05-24T05:15:25Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "F0VvtOj6QjQ",
+    "channel": "sentdex",
+    "channel_id": "UCfzlCWGWYyIQ0aLC5w48gBQ",
+    "title": "The Future of User Interfaces with A.I.",
+    "published_at": "2022-09-29T20:26:35Z",
+    "url": "https://www.youtube.com/watch?v=F0VvtOj6QjQ",
+    "duration_seconds": 1057,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 15533,
+    "transcript_excerpt": "Kind: captions Language: en I saw this tweet the other day from Crystal Ball Valenzuela asserting that the future of human interfaces for software would be all natural language and that it is essentially the end of graphical user interfaces it's such a simple tweet but it really got me thinking about a lot of things because it's clear to me that many things will change when it comes to our interactions with software and that this change will definitely come from AI based uis and of course natura",
+    "summary": "演讲者认为自然语言界面虽然目前不如图形界面高效，但AI的进步（如GitHub Copilot）将抽象化许多手动任务，使软件工程转向管理角色。图形界面因视觉信息处理速度快仍会保留，但输入方式将进化。",
+    "topic_tags": [
+      "code-generation",
+      "reasoning"
+    ],
+    "key_quotes": [
+      "a picture is worth a thousand words so to speak right",
+      "the future is a far more intuitive UI",
+      "GitHub co-pilot likely is the first true you know large language model deep learning auto complete slash AI pair programmer"
+    ],
+    "related_channels": [
+      "Andrej Karpathy",
+      "AI Explained"
+    ],
+    "processed_at": "2026-05-24T05:15:37Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "P-yxB3muUmM",
+    "channel": "sentdex",
+    "channel_id": "UCfzlCWGWYyIQ0aLC5w48gBQ",
+    "title": "Python Plays GTA V: Reboot - Announcement",
+    "published_at": "2022-05-03T15:09:23Z",
+    "url": "https://www.youtube.com/watch?v=P-yxB3muUmM",
+    "duration_seconds": 468,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 8397,
+    "transcript_excerpt": "Kind: captions Language: en what is going on everybody and welcome to the return of the python plays grand theft auto series so what's changed what is this project if you're not familiar with the project it was from about five years ago back when the open ai universe was set to include uh grand theft auto 5 which was such a cool sandbox if you don't know what the universe was or is sort of i'm not really sure it kind of was anyway it was like a collection of environments kind of like the open ai",
+    "summary": "作者重新启动了Python玩GTA项目，现在使用自动NPC收集训练数据，并实时训练更新模型。他们将在Twitch上直播模型的成长过程，并展示神经网络的训练可视化。",
+    "topic_tags": [
+      "agents",
+      "interpretability"
+    ],
+    "key_quotes": [
+      "daniel has created for us essentially like our own npc that plays grand theft auto for us and logs all of this data",
+      "we have agents that are just constantly playing this model and then we are also constantly training this model",
+      "we'd like to be showing things like visualizations of the neural network"
+    ],
+    "related_channels": [],
+    "processed_at": "2026-05-24T05:15:48Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "FyhxoHKFIiY",
+    "channel": "sentdex",
+    "channel_id": "UCfzlCWGWYyIQ0aLC5w48gBQ",
+    "title": "Attacking and Defeating the Enemy - Starcraft 2 AI with Python (p.3)",
+    "published_at": "2022-03-07T15:21:37Z",
+    "url": "https://www.youtube.com/watch?v=FyhxoHKFIiY",
+    "duration_seconds": 2108,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 27798,
+    "transcript_excerpt": "Kind: captions Language: en [Music] what is going on everybody and welcome to part three of the starcraft 2 ai tutorials in this video what we're going to do is basically build on the last one so we built a little bit of a defense um but not probably not going to be able to win with purely a defense i mean there's a possibility i suppose maybe there's some sort of strategy where you could expand really fast uh and exhaust all of the resources faster than your opponent and then also build up thes",
+    "summary": "这个视频讲解如何编写《星际争霸2》AI，通过建造水晶塔、瓦斯精炼厂、锻炉、传送门、控制核心和星门等建筑，最终生产虚空辉光舰。演讲者尝试用循环代码简化建筑序列，但遇到了建筑放置位置和待处理状态检查的问题。",
+    "topic_tags": [
+      "agents",
+      "code-generation"
+    ],
+    "key_quotes": [
+      "we want to build the following three buildings so we want a gateway we want a cybernetics core and then we want a stargate",
+      "if we can afford that void ray in effect give me this we're learning we're learning",
+      "I think the next thing that we're going to add here is once we know our nexus... we want to build the void ray unit"
+    ],
+    "related_channels": [
+      "sentdex"
+    ],
+    "processed_at": "2026-05-24T05:15:59Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "S2GY3gh6qC8",
+    "channel": "Andrej Karpathy",
+    "channel_id": "UCPk8m_r6fkUSYmvgCBwq-sw",
+    "title": "Introducing arxiv-sanity",
+    "published_at": "2016-03-24T05:22:25Z",
+    "url": "https://www.youtube.com/watch?v=S2GY3gh6qC8",
+    "duration_seconds": 214,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 3701,
+    "transcript_excerpt": "Kind: captions Language: en we all know and love archive it is a massive pre-print repository with a lot of wonderful papers unfortunately these papers are not very easy to skim search or sort new papers are also added every single day but unfortunately all you get is this huge featureless list it's easy to miss interesting papers that might be relevant to your research introducing archive sanity the function of this website is as you might imagine to preserve your sanity when dealing with archi",
+    "summary": "演讲者介绍了一个名为“archive sanity”的网站，用于改善arXiv论文的浏览和搜索体验。该网站提供缩略图预览、基于TF-IDF的相似性排序、个人图书馆功能，并利用SVM根据用户保存的论文进行个性化推荐。",
+    "topic_tags": [
+      "uncategorized"
+    ],
+    "key_quotes": [
+      "archive sanity the function of this website is as you might imagine to preserve your sanity when dealing with archive",
+      "archive San will train you a personalized svm based on Byram TF Ida features of papers"
+    ],
+    "related_channels": [],
+    "processed_at": "2026-05-24T05:11:06Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "T7YkPWpwFD4",
+    "channel": "Andrej Karpathy",
+    "channel_id": "UCPk8m_r6fkUSYmvgCBwq-sw",
+    "title": "CS231n Winter 2016: Lecture 15: Invited Talk by Jeff Dean",
+    "published_at": "2016-03-10T21:01:44Z",
+    "url": "https://www.youtube.com/watch?v=T7YkPWpwFD4",
+    "duration_seconds": 4490,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 69595,
+    "transcript_excerpt": "Kind: captions Language: en I'd like to point out that what I'll be presenting today is partly my work in collaboration with others and sometimes I'm presenting work done by people in my group uh that I wasn't really involved in but it's joint work with many many people you'll see lots of names throughout the talk so uh take that with a grain of salt uh so what I'm going to tell you about is kind of how Google got to where it is today in terms of using deep learning in a lot of different places ",
+    "summary": "演讲者介绍了谷歌从2011年开始利用大规模数据和计算训练深度神经网络的项目，包括使用无监督学习从YouTube帧中学习高级概念（如人脸和猫），以及后来将监督学习应用于语音识别并取得显著改进。他们还开发了TensorFlow并开源。",
+    "topic_tags": [
+      "scaling",
+      "open-source-models"
+    ],
+    "key_quotes": [
+      "if you have more data and you can make your model bigger generally scaling both of those things is even better than scaling just one of them",
+      "we've open sourced it which I gather you heard about"
+    ],
+    "related_channels": [
+      "Andrej Karpathy",
+      "DeepLearningAI"
+    ],
+    "processed_at": "2026-05-24T05:11:26Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "ekyBklxwQMU",
+    "channel": "Andrej Karpathy",
+    "channel_id": "UCPk8m_r6fkUSYmvgCBwq-sw",
+    "title": "CS231n Winter 2016: Lecture 14: Videos and Unsupervised Learning",
+    "published_at": "2016-03-01T09:12:15Z",
+    "url": "https://www.youtube.com/watch?v=ekyBklxwQMU",
+    "duration_seconds": 4656,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 83574,
+    "transcript_excerpt": "Kind: captions Language: en terms of administrative items um everyone should be done with sment 3 now if you're not done I think you're late and you're in trouble uh Milestone grades will be out very soon we're still getting through them and they're basically I think done but we have to double check a few things and we'll send them out okay so in terms of reminding you where we are in the class uh last class we looked very briefly at segmentation we looked at some soft detention models soft dete",
+    "summary": "讲者首先介绍了视频分类中使用的传统密集轨迹特征（hand-crafted dense trajectory features），然后讲解了如何通过3D卷积将卷积神经网络扩展到时空数据处理，即在空间和时间维度上滑动滤波器。",
+    "topic_tags": [
+      "reasoning"
+    ],
+    "key_quotes": [
+      "we just extend all the filters in time and then we do convolutions not only in space but also in time",
+      "the first kind of large scale application of this was from this awesome paper in 2014 by Karpathy et al"
+    ],
+    "related_channels": [
+      "Andrej Karpathy"
+    ],
+    "processed_at": "2026-05-24T05:11:39Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "ByjaPdWXKJ4",
+    "channel": "Andrej Karpathy",
+    "channel_id": "UCPk8m_r6fkUSYmvgCBwq-sw",
+    "title": "CS231n Winter 2016: Lecture 13: Segmentation, soft attention, spatial transformers",
+    "published_at": "2016-02-26T22:12:26Z",
+    "url": "https://www.youtube.com/watch?v=ByjaPdWXKJ4",
+    "duration_seconds": 4260,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 72227,
+    "transcript_excerpt": "Kind: captions Language: en so our administrative uh points for today U assignment three is due tonight so who's done that's good uh was it easier than assignment two okay that's good um hopefully gives you more time to work on your projects um so also remember your Milestones were were uh turned in were turned in last week so we're in the process of looking through the Milestones to make sure those are okay and also we're working on assignment two grading so we should have that done sometime th",
+    "summary": "演讲者首先介绍了Google在ImageNet上使用Inception V4和Inception-ResNet取得3.08% top-5错误率的新最优结果，随后详细讲解了语义分割（逐像素分类）和实例分割（区分个体实例）两种任务，并说明了通过滑动窗口或全卷积网络实现语义分割的基本方法。",
+    "topic_tags": [
+      "benchmarks",
+      "scaling"
+    ],
+    "key_quotes": [
+      "Google actually has now state-of-the-art on imet with 3.08% top five error which is crazy",
+      "they also show that between their sort of new Inception their new uh version four of inception googlet and their residual version of uh googlet that actually both of them perform about the same"
+    ],
+    "related_channels": [
+      "Yannic Kilcher",
+      "DeepLearningAI",
+      "Andrej Karpathy"
+    ],
+    "processed_at": "2026-05-24T05:11:57Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "Vf_-OkqbwPo",
+    "channel": "Andrej Karpathy",
+    "channel_id": "UCPk8m_r6fkUSYmvgCBwq-sw",
+    "title": "CS231n Winter 2016: Lecture 12: Deep Learning libraries",
+    "published_at": "2016-02-23T06:13:32Z",
+    "url": "https://www.youtube.com/watch?v=Vf_-OkqbwPo",
+    "duration_seconds": 4867,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 84755,
+    "transcript_excerpt": "Kind: captions Language: en today we're going to go over these four major software packages that people commonly use for de learning um as usual a couple administrative things um uh the the Milestones were actually due last week so hopefully you turn them in um and we'll try to take a look at those this week um also remember that assignment three the final assignment is going to be due on Wednesday so um any of you guys done already okay that's that's good um and you have late days so you should",
+    "summary": "演讲者介绍了Caffe深度学习框架的四个核心类：Blob、Layer、Net和Solver，并解释了如何使用协议缓冲区（protobuf）定义网络和求解器，从而无需编写代码即可训练模型。他强调Caffe特别适用于卷积神经网络，但文档可能过时，建议直接阅读源代码。",
+    "topic_tags": [
+      "open-source-models",
+      "benchmarks"
+    ],
+    "key_quotes": [
+      "the most important tip when you're working with Cafe is that the documentation is not is sometimes out of date and not always perfect so you need to not be afraid to just dive in there and read the source code yourself",
+      "even if you wanted to train resnet on imag net you could just follow this simple procedure and train a giant Network without writing any code"
+    ],
+    "related_channels": [
+      "Andrej Karpathy",
+      "Yannic Kilcher"
+    ],
+    "processed_at": "2026-05-24T05:12:09Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "pA4BsUK3oP4",
+    "channel": "Andrej Karpathy",
+    "channel_id": "UCPk8m_r6fkUSYmvgCBwq-sw",
+    "title": "CS231n Winter 2016: Lecture 11: ConvNets in practice",
+    "published_at": "2016-02-18T07:23:55Z",
+    "url": "https://www.youtube.com/watch?v=pA4BsUK3oP4",
+    "duration_seconds": 4503,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 77641,
+    "transcript_excerpt": "Kind: captions Language: en All right. So, I we have a lot of stuff to get through today. So, I'd like to get started. So, today we're going to talk about CNN's in practice and talk about a lot of really low-level sort of implementation details that are really common to get these things to work um when you're actually training things. Uh but first, as usual, we have some administrative stuff to talk about. Um number one is that through a really heroic effort by all the TAs, all the midterms are ",
+    "summary": "演讲者详细讨论了在训练卷积神经网络（CNN）时使用的数据增强技术，包括水平翻转、随机裁剪和颜色抖动等方法，并强调了这些技术对于防止过拟合和提升模型性能的重要性。此外，还涵盖了卷积网络的高效实现和分布式训练等底层细节。",
+    "topic_tags": [
+      "benchmarks",
+      "scaling",
+      "inference-optimization"
+    ],
+    "key_quotes": [
+      "The easiest form of data augmentation is horizontal flipping if we take this cat and we look at the mirror image the mirror image should still be a cat.",
+      "This is really simple and the trick is just what kinds of transforms you should be using.",
+      "Pretty much any CNN you see that's winning competitions or doing well on benchmarks is using some form of data augmentation."
+    ],
+    "related_channels": [],
+    "processed_at": "2026-05-24T05:12:24Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "yCC09vCHzF8",
+    "channel": "Andrej Karpathy",
+    "channel_id": "UCPk8m_r6fkUSYmvgCBwq-sw",
+    "title": "CS231n Winter 2016: Lecture 10: Recurrent Neural Networks, Image Captioning, LSTM",
+    "published_at": "2016-02-09T04:29:55Z",
+    "url": "https://www.youtube.com/watch?v=yCC09vCHzF8",
+    "duration_seconds": 4194,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 75286,
+    "transcript_excerpt": "Kind: captions Language: en test test okay it works okay good we should get started soon so today we'll be talking about recurrent neural networks which is one of my favorite topics one of my favorite models to play with and put into neural networks just everywhere there are a lot of fun to to play with in terms of administrative items recall that your midterm is on Wednesday this one's day you can tell that I'm really excited I don't know if you guys are excited you don't look very excited to m",
+    "summary": "演讲者介绍了循环神经网络（RNN）的核心概念，强调其能够处理序列数据，并在每个时间步通过固定函数更新隐藏状态。他举例说明了RNN在图像描述、机器翻译和字符级语言模型等任务中的应用，展示了其在处理不同输入/输出序列配置时的灵活性。",
+    "topic_tags": [
+      "multimodal"
+    ],
+    "key_quotes": [
+      "what's nice about recurrent neural networks is that they offer a lot of flexibility and how you wire up your neural network architectures",
+      "recurrent neural networks allow you to wire up an architecture where the prediction at every single time step is a function of all the frames that have come in up to that point"
+    ],
+    "related_channels": [
+      "Andrej Karpathy"
+    ],
+    "processed_at": "2026-05-24T05:12:42Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "ta5fdaqDT3M",
+    "channel": "Andrej Karpathy",
+    "channel_id": "UCPk8m_r6fkUSYmvgCBwq-sw",
+    "title": "CS231n Winter 2016: Lecture 9: Visualization, Deep Dream, Neural Style, Adversarial Examples",
+    "published_at": "2016-02-04T05:38:30Z",
+    "url": "https://www.youtube.com/watch?v=ta5fdaqDT3M",
+    "duration_seconds": 4700,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 86525,
+    "transcript_excerpt": "Kind: captions Language: en So today we'll talk about uh understanding and visualizing convolutional neural networks. This is one of my favorite lectures to give because we'll get to look at a lot of pictures, videos, have a lot of fun and there's a lot of space for kind of intuitive understanding of what cometets are doing. Before we dive into it, just some of the administrative items. Um assignment one is now now graded. We'll send out the grades tonight. I'm saying or so because just in case ",
+    "summary": "演讲者讨论了理解和可视化卷积神经网络的各种方法，包括查看激活、权重、使用t-SNE嵌入高维特征以及遮挡实验来识别分类中重要的区域。他们还提到第一层滤波器通常类似于Gabor滤波器，这是许多学习算法的常见结果。",
+    "topic_tags": [
+      "interpretability"
+    ],
+    "key_quotes": [
+      "probably the simplest way to actually understand what comes might be doing is to look at the raw activations of a comnet",
+      "it's hard to come up with a reasonable algorithm that does not give you gabbor filters on the first layer"
+    ],
+    "related_channels": [
+      "Andrej Karpathy",
+      "Yannic Kilcher"
+    ],
+    "processed_at": "2026-05-24T05:12:54Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "GxZrEKZfW2o",
+    "channel": "Andrej Karpathy",
+    "channel_id": "UCPk8m_r6fkUSYmvgCBwq-sw",
+    "title": "CS231n Winter 2016: Lecture 8: Localization and Detection",
+    "published_at": "2016-02-02T06:52:00Z",
+    "url": "https://www.youtube.com/watch?v=GxZrEKZfW2o",
+    "duration_seconds": 3897,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 70228,
+    "transcript_excerpt": "Kind: captions Language: en 3:00 let's let's get started so um I'm going to lecture it today give Andre a little bit of a break so today we're so last time we talked about uh sort of we saw all the parts of comets we put everything together um today we're going to see some applications of comets uh to Spa to actually dive inside images and talk about spatial localization and detection um we were we actually moved this lecture up a little bit uh we had it later on the schedule but we saw a lot of",
+    "summary": "讲者介绍了图像分类与定位任务，解释如何通过添加回归头来扩展卷积网络，使其同时输出类别标签和边界框。他们使用预训练模型进行微调，利用L2损失训练边界框坐标，并指出这是一种简单可行的实现方法。",
+    "topic_tags": [
+      "fine-tuning"
+    ],
+    "key_quotes": [
+      "here's a really simple recipe for how you could Implement classification plus localization",
+      "we train this thing just like we trained our classification Network the only difference is that now instead of class scores and ground TR classes we use a L2 loss and ground trth boxes"
+    ],
+    "related_channels": [
+      "Andrej Karpathy",
+      "Yannic Kilcher"
+    ],
+    "processed_at": "2026-05-24T05:13:10Z",
+    "pipeline_version": "1.0.0"
+  }
+]
