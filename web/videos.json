@@ -1541,6 +1541,29 @@
     "pipeline_version": "1.0.0"
   },
   {
+    "video_id": "phTnbmXM06g",
+    "channel": "sentdex",
+    "channel_id": "UCfzlCWGWYyIQ0aLC5w48gBQ",
+    "title": "Can we simulate a real robot?",
+    "published_at": "2021-10-13T15:22:16Z",
+    "url": "https://www.youtube.com/watch?v=phTnbmXM06g",
+    "duration_seconds": 1286,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 21456,
+    "transcript_excerpt": "Kind: captions Language: en hello and welcome to another adventure style video this time i'll be working through simulating a real robot and attempting to train and learn certain actions in a simulator and then transferring that to reality but if you have a real programmable robot why would you ever need a simulator programming simple actions like a jump that i worked on here can take an hour or more of r d as you battle battery life trial and error you often also need to rig something up so tha",
+    "summary": "本视频中，演讲者尝试在NVIDIA的Omniverse和Isaac Sim中模拟Bittle四足机器人，加载URDF文件并设置物理仿真。他遇到了机器人滑动和文档不清晰的问题，最终通过调整参数和使用正确的Python示例成功让机器人受物理影响并活动关节。",
+    "topic_tags": [
+      "robotics"
+    ],
+    "key_quotes": [
+      "i finally feel like i'm onto something but these bittles are just floating there they're not being impacted in any way by physics",
+      "the physics is much better in the sim but the problem is i still struggled with finding examples in clear documentation"
+    ],
+    "related_channels": [],
+    "processed_at": "2026-05-24T08:53:55Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
     "video_id": "S2GY3gh6qC8",
     "channel": "Andrej Karpathy",
     "channel_id": "UCPk8m_r6fkUSYmvgCBwq-sw",
