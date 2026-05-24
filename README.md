@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LLM YouTube Landscape Tracker
 
 Auto-updating, transcript-grounded landscape of LLM YouTube content.
@@ -34,3 +35,6 @@ one-time setup runbook.
 - `docs/specs/` — design spec
 - `docs/plans/` — implementation plan (this build)
 - `pyproject.toml` + `uv.lock` — dependency manifest
+=======
+# llm-yt-tracker
+>>>>>>> 4664e4059c09ed91f37d0cd10d08a73fd3c65310
