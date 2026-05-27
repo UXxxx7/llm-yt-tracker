@@ -1645,6 +1645,77 @@
     "pipeline_version": "1.0.0"
   },
   {
+    "video_id": "dTW_PQyUHXA",
+    "channel": "sentdex",
+    "channel_id": "UCfzlCWGWYyIQ0aLC5w48gBQ",
+    "title": "What's It Like to Race a Race Car For the First Time?",
+    "published_at": "2019-04-16T19:39:07Z",
+    "url": "https://www.youtube.com/watch?v=dTW_PQyUHXA",
+    "duration_seconds": 1732,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 29177,
+    "transcript_excerpt": "Kind: captions Language: en what tell a story of my first race weekend but how the heck did I get here start with motorcycles on the street then I got into tractors sold my last motorcycle track day we're all gridded up we're delayed getting out on track for some reason and then we find out the reason for the delay is they're actually still trying to find someone's finger who lost it on track so that was my last motorcycle track day and I got into cars so then I got the s2000 and found cars to b",
+    "summary": "演讲者讲述了自己从街头摩托车到赛车比赛的历程，描述了准备过程、面临的心理挑战以及比赛结果——他最终在组别中获得第二名，并从排位赛提升了六个名次。他强调真正的赛车比赛道驾驶需要更高的心理强度，因为要同时处理多辆车的动态。",
+    "topic_tags": [
+      "reasoning"
+    ],
+    "key_quotes": [
+      "I finished second in class",
+      "the mental challenge here is so high",
+      "nothing can prepare you for like a real race"
+    ],
+    "related_channels": [],
+    "processed_at": "2026-05-27T01:53:32Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "gmQHBWrR4AY",
+    "channel": "sentdex",
+    "channel_id": "UCfzlCWGWYyIQ0aLC5w48gBQ",
+    "title": "Generating Pythonic code with Neural Network - Unconventional Neural Networks p.2",
+    "published_at": "2018-04-05T13:07:26Z",
+    "url": "https://www.youtube.com/watch?v=gmQHBWrR4AY",
+    "duration_seconds": 1187,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 15946,
+    "transcript_excerpt": "Kind: captions Language: en what's going on everybody and welcome to part two of our poking around with neural networks tutorial Series in this tutorial what we're going to do is kind of build on the last one so the last one we had this input data that was uh basically you know sh a Shakespeare play and we got it we got the neural network to produce something that looked very just like this basically uh and then we wondered could we do this with python code so that's what we're going to try in t",
+    "summary": "本教程展示了如何收集Python标准库代码作为训练数据，训练一个神经网络来生成Python代码。发现序列长度是关键因素：较短的序列长度（50）导致输出混乱，而较长的序列长度（250）能显著提升质量，模型能正确闭合文档字符串等结构。",
+    "topic_tags": [
+      "code-generation"
+    ],
+    "key_quotes": [
+      "the real thing that seems to be helping is sequence length",
+      "it actually could figure out oh I'm still in a dock string and finish the dock string"
+    ],
+    "related_channels": [],
+    "processed_at": "2026-05-27T01:53:40Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "mXuEoqK4bEc",
+    "channel": "sentdex",
+    "channel_id": "UCfzlCWGWYyIQ0aLC5w48gBQ",
+    "title": "Cython Tutorial - Bridging between Python and C/C++ for performance gains",
+    "published_at": "2017-07-10T23:19:48Z",
+    "url": "https://www.youtube.com/watch?v=mXuEoqK4bEc",
+    "duration_seconds": 1781,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 24095,
+    "transcript_excerpt": "Kind: captions Language: en what's going on everybody and welcome to a site on introduction tutorial we've got a lot of things to cover I'm going to try to get everything fit into one single video so let's get to it so first of all what is scythe on so I thought is a superset of the Python language so what this basically means is it's going to act as a bridge between Python and C / C++ and this means we're going to go both ways we can go from Python to C C++ or C++ back to Python and a lot of ti",
+    "summary": "本视频介绍了Cython，它是Python的超集，可以作为Python与C/C++之间的桥梁，通过添加静态类型信息来显著提升Python代码的运行速度。演示了如何编写.pyx文件、创建setup.py并编译生成共享对象文件，以及如何使用cdef和cpdef等类型声明。强调即使在不了解C语言的情况下，也能通过简单的类型标注获得性能提升。",
+    "topic_tags": [
+      "code-generation"
+    ],
+    "key_quotes": [
+      "the glory of site ton is you can do this without really knowing anything about C C++ it's just going to generate that code for you",
+      "the main thing that at least at the very basic level that you can very simply do a scythe on there's a lot of really advanced stuff that you can do size on as well but the basic thing that you can do is just add typing information",
+      "that's how simple it is to at least build and all that with sight on right"
+    ],
+    "related_channels": [],
+    "processed_at": "2026-05-27T01:53:55Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
     "video_id": "S2GY3gh6qC8",
     "channel": "Andrej Karpathy",
     "channel_id": "UCPk8m_r6fkUSYmvgCBwq-sw",
@@ -1875,6 +1946,29 @@
       "Yannic Kilcher"
     ],
     "processed_at": "2026-05-24T05:13:10Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "jXzkxsT9gxM",
+    "channel": "sentdex",
+    "channel_id": "UCfzlCWGWYyIQ0aLC5w48gBQ",
+    "title": "Thresholding - OpenCV with Python for Image and Video Analysis 6",
+    "published_at": "2015-12-22T21:13:26Z",
+    "url": "https://www.youtube.com/watch?v=jXzkxsT9gxM",
+    "duration_seconds": 555,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 7613,
+    "transcript_excerpt": "Kind: captions Language: en what's going on everybody Welcome to the sixth open CV with Python tutorial video in this video we're going to be talking about is thresholding with open CV so the idea of thresholding there's a lot of things that we can do from thresholding but the idea usually is some form of extreme simplification of an image so like what we did before we converted to gray scale that simplifies an image quite a bit but further simplifying with a threshold means everything is either",
+    "summary": "本视频讲解了OpenCV中的阈值处理（thresholding）技术，包括基本阈值、灰度图像的阈值、自适应阈值（adaptive threshold）和Otsu阈值。演讲者演示了如何对低光照书籍页图片应用这些方法，并比较了不同阈值的效果。",
+    "topic_tags": [
+      "uncategorized"
+    ],
+    "key_quotes": [
+      "the idea of thresholding there's a lot of things that we can do from thresholding but the idea usually is some form of extreme simplification of an image",
+      "we're going to work on a what's called a a gajin adaptive threshold so that's what's going to be adaptive based on kind of the region that we're in"
+    ],
+    "related_channels": [],
+    "processed_at": "2026-05-27T01:54:06Z",
     "pipeline_version": "1.0.0"
   }
 ]
