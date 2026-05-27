@@ -1,5 +1,63 @@
 [
   {
+    "video_id": "GBISeUYMzoU",
+    "channel": "Matthew Berman",
+    "channel_id": "UCawZsQWqfGSbCI5yjkdVkTA",
+    "title": "Cursor just beat EVERYONE.",
+    "published_at": "2026-05-26T16:40:27Z",
+    "url": "https://www.youtube.com/watch?v=GBISeUYMzoU",
+    "duration_seconds": 1882,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 29125,
+    "transcript_excerpt": "Kind: captions Language: en The first thing I want to talk about today is how the new cursor model is just quietly best coding model on the planet. Have you all seen this yet? Cursor released Composer 2.5, the next iteration of their homegrown coding models, the workhorse model, the model that they're probably all hoping everybody moves to because that's the one that they are having the highest margins on because it's their own model and built for coding. And it turns out it's actually incredibl",
+    "summary": "演讲者认为Cursor的Composer 2.5模型在性价比上是最好的编码模型，其性能接近前沿模型但成本仅为二十分之一。他强调大多数编码用例不需要绝对的前沿模型，而应优先考虑价格与智能的平衡。",
+    "topic_tags": [
+      "code-generation",
+      "open-source-models",
+      "benchmarks"
+    ],
+    "key_quotes": [
+      "Composer 2.5 seems to be the best model on the planet.",
+      "It is the price to performance ratio. On that measure, Composer 2.5 seems to be the best model on the planet.",
+      "for the vast majority of coding use cases, this will be your default model."
+    ],
+    "related_channels": [
+      "Matthew Berman",
+      "AI Explained"
+    ],
+    "processed_at": "2026-05-27T01:51:50Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
+    "video_id": "huAwz_BR8WM",
+    "channel": "Two Minute Papers",
+    "channel_id": "UCbfYPyITQ-7l4upoX8nvctg",
+    "title": "DeepMind’s Insane AI Breakthroughs With CEO Demis Hassabis",
+    "published_at": "2026-05-25T17:49:30Z",
+    "url": "https://www.youtube.com/watch?v=huAwz_BR8WM",
+    "duration_seconds": 1288,
+    "transcript_source": "captions",
+    "transcript_excerpt_chars": 23037,
+    "transcript_excerpt": "Kind: captions Language: en weak and easy questions. Please try to answer in one sentence, sometimes one word. &gt;&gt; Oh, wow. That's hard. Um, &gt;&gt; Fineman or Newton. &gt;&gt; Oh, wow. That's even harder. &gt;&gt; Dennis, I don't know if I told you, but my mother recently got some health scan results. It was a massive video file, and we had to wait for weeks for the evaluation, and we were really anxious. &gt;&gt; And then I thought, wait, Gemini, long context, you know, why not give it a",
+    "summary": "演讲者分享了使用 Gemini 分析医疗扫描视频（多模态）和作为头脑风暴伙伴的经历。他介绍了 co-scientist，一个针对假设生成和研究辅助进行微调的 Gemini 智能体。他还讨论了 AI 在药物发现中的应用，包括构建多个类似 AlphaFold 的模型以加速流程，并希望在 10-20 年内利用 AI 治愈所有疾病。",
+    "topic_tags": [
+      "multimodal",
+      "fine-tuning",
+      "agents"
+    ],
+    "key_quotes": [
+      "you can think of CO scientist as a sort of um fine-tuned version of Gemini that's specifically uh with extra tools and extra harnesses on top",
+      "I think one day maybe we can cure all disease with the help of AI, maybe within the next decade."
+    ],
+    "related_channels": [
+      "AI Explained",
+      "Two Minute Papers",
+      "DeepLearningAI"
+    ],
+    "processed_at": "2026-05-27T01:51:32Z",
+    "pipeline_version": "1.0.0"
+  },
+  {
     "video_id": "fAfuQN0WwFE",
     "channel": "DeepLearningAI",
     "channel_id": "UCcIXc5mJsHVYTZR1maL5l9w",
